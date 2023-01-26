@@ -1,0 +1,9 @@
+.menu-button {
+  background: blue;
+  color: #fff;
+}
+
+.menu-button:hover {
+  background: green;
+  cursor: pointer;
+}
