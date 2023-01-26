@@ -1,5 +1,6 @@
 import React from "react";
 import Menu from "./Menu";
+import "../styles/Game.css";
 
 const Game = ({ rows, columns }) => {
   const start = () => {
