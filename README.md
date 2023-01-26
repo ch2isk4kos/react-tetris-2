@@ -1,1 +1,1 @@
-# Tetris built with React
+# React Tetris
