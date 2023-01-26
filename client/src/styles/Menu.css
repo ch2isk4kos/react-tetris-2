@@ -1,5 +1,18 @@
+.Menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  z-index: 100;
+}
+
 .menu-button {
+  padding: 2em 4em;
+  border: none;
+  border-radius: 2.2em;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 60px;
   background: blue;
+  font-size: 2em;
   color: #fff;
 }
 
