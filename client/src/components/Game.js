@@ -1,9 +1,16 @@
 import React from "react";
+import Menu from "./Menu";
 
 const Game = ({ rows, columns }) => {
+  const start = () => {
+    console.log("Game started...");
+  };
+
   return (
     <div className="Game">
-      <p>Game.</p>
+      <Menu start={start} />
+      <p>Rows: {rows}</p>
+      <p>Columns: {columns}</p>
     </div>
   );
 };
