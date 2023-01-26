@@ -1,9 +1,9 @@
 import React from "react";
 
-const Game = () => {
+const Game = ({ rows, columns }) => {
   return (
     <div className="Game">
-      <h1>Game</h1>
+      <p>Game.</p>
     </div>
   );
 };
