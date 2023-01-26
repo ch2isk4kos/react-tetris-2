@@ -4,7 +4,7 @@ import "../styles/Menu.css";
 const Menu = ({ start }) => {
   return (
     <div className="Menu">
-      <button className="menu-button" onClick={start}>
+      <button className="button" onClick={start}>
         Start Game
       </button>
     </div>
