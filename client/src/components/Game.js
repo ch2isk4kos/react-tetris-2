@@ -1,8 +1,11 @@
 import React from "react";
 import Menu from "./Menu";
+import { useGame } from "../hooks/useGame";
 import "../styles/Game.css";
 
 const Game = ({ rows, columns }) => {
+  const [isGameOver, setIsGameOver, resetGame] = useGame();
+
   const start = () => {
     console.log("Game started...");
   };
