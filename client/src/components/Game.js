@@ -13,9 +13,14 @@ const Game = ({ rows, columns }) => {
 
   return (
     <div className="Game">
-      <Menu start={start} />
-      <p>Rows: {rows}</p>
-      <p>Columns: {columns}</p>
+      {isGameOver ? (
+        <Menu start={start} />
+      ) : (
+        <>
+          <p>Rows: {rows}</p>
+          <p>Columns: {columns}</p>
+        </>
+      )}
     </div>
   );
 };
