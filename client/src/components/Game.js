@@ -1,7 +1,7 @@
 import React from "react";
 import Menu from "./Menu";
 import { useGame } from "../hooks/useGame";
-import "../styles/Game.css";
+import "./styles/Game.css";
 import Tetris from "./Tetris";
 
 const Game = ({ rows, columns }) => {
