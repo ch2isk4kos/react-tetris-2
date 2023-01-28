@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/Tetris.css";
 
 const Tetris = ({ rows, columns, setIsGameOver }) => {
   return (
