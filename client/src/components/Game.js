@@ -2,6 +2,7 @@ import React from "react";
 import Menu from "./Menu";
 import { useGame } from "../hooks/useGame";
 import "../styles/Game.css";
+import Tetris from "./Tetris";
 
 const Game = ({ rows, columns }) => {
   const [isGameOver, setIsGameOver, resetGame] = useGame();
@@ -16,10 +17,7 @@ const Game = ({ rows, columns }) => {
       {isGameOver ? (
         <Menu start={start} />
       ) : (
-        <>
-          <p>Rows: {rows}</p>
-          <p>Columns: {columns}</p>
-        </>
+        <Tetris rows={rows} columns={columns} />
       )}
     </div>
   );
