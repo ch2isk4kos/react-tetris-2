@@ -1,6 +1,6 @@
 import React from "react";
 
-const Tetris = ({ rows, columns }) => {
+const Tetris = ({ rows, columns, setIsGameOver }) => {
   return (
     <div className="Tetris">
       <h1>Tetris</h1>
