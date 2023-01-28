@@ -16,7 +16,7 @@ const Game = ({ rows, columns }) => {
       {isGameOver ? (
         <Menu start={start} />
       ) : (
-        <Tetris rows={rows} columns={columns} />
+        <Tetris rows={rows} columns={columns} setIsGameOver={setIsGameOver} />
       )}
     </div>
   );
