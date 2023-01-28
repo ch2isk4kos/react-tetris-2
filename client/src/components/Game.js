@@ -7,7 +7,8 @@ const Game = ({ rows, columns }) => {
   const [isGameOver, setIsGameOver, resetGame] = useGame();
 
   const start = () => {
-    console.log("Game started...");
+    resetGame();
+    console.log(`isGameOver: ${isGameOver}`);
   };
 
   return (
