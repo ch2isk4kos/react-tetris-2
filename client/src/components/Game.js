@@ -1,8 +1,8 @@
 import React from "react";
 import Menu from "./Menu";
+import Tetris from "./tetris/Tetris";
 import { useGame } from "../hooks/useGame";
 import "./styles/Game.css";
-import Tetris from "./tetris/Tetris";
 
 const Game = ({ rows, columns }) => {
   const [isGameOver, setIsGameOver, resetGame] = useGame();
