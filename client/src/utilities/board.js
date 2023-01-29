@@ -1,6 +1,6 @@
 import { defaultCell } from "./cell";
 
-export const boardBuild = ({ rows, columns }) => {
+export const buildBoard = ({ rows, columns }) => {
   const matrix = Array.from({ length: rows }, () =>
     Array.from({ length: columns }, () => ({ ...defaultCell }))
   );
