@@ -1,9 +1,8 @@
 import React from "react";
 
-const Cell = () => {
+const Cell = ({ cell }) => {
   return (
-    <div>
-      {/*  */}
+    <div className={`Cell ${cell.className}`}>
       {/*  */}
       {/*  */}
     </div>
