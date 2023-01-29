@@ -4,7 +4,7 @@ import "../styles/Cell.css";
 const Cell = ({ cell }) => {
   return (
     <div className={`Cell ${cell.className}`}>
-      <div className="test">
+      <div className="shine">
         <p>TESTING!</p>
       </div>
     </div>
