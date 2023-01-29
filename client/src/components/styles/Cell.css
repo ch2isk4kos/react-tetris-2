@@ -5,6 +5,13 @@
   border: 2px solid black;
 }
 
+.tetromino {
+  border-top: 3px solid rgba(255, 255, 255, 0.1);
+  border-left: ;
+  border-bottom: ;
+  border-right: ;
+}
+
 .shine {
   position: absolute;
   left: -2px;
