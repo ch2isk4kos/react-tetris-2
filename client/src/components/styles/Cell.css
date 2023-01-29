@@ -7,9 +7,9 @@
 
 .tetromino {
   border-top: 3px solid rgba(255, 255, 255, 0.1);
-  border-left: ;
-  border-bottom: ;
-  border-right: ;
+  border-left: 3px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+  border-right: 3px solid rgba(0, 0, 0, 0.1);
 }
 
 .shine {
@@ -21,4 +21,9 @@
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 4px 4px;
   z-index: 10;
+}
+
+.tetromino.ghost,
+.shine {
+  opacity: 0;
 }
