@@ -1,3 +1,6 @@
 .Cell {
+  position: relative;
+  width: auto;
+  border-radius: 1em;
   border: 2px solid black;
 }
