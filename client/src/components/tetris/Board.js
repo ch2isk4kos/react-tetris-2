@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Board.css";
 
-const Board = ({ rows, columns }) => {
+const Board = ({ board }) => {
   return (
     <div className="Board">
       {/*  */}
