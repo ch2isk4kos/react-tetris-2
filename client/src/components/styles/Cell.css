@@ -27,3 +27,29 @@
 .shine {
   opacity: 0;
 }
+
+.tetromino__i {
+  background-color: rgba(80, 227, 250, 1);
+}
+.tetromino__j {
+  background-color: rgba(36, 95, 223, 1);
+}
+.tetromino__l {
+  background-color: rgba(223, 173, 36, 1);
+}
+
+.tetromino__o {
+  background-color: rgba(223, 217, 36, 1);
+}
+
+.tetromino__s {
+  background-color: rgba(48, 211, 56, 1);
+}
+
+.tetromino__t {
+  background-color: rgba(132, 61, 198, 1);
+}
+
+.tetromino__z {
+  background-color: rgba(240, 80, 195, 1);
+}
