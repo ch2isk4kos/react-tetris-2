@@ -4,3 +4,14 @@
   border-radius: 1em;
   border: 2px solid black;
 }
+
+.test {
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  width: 6px;
+  height: 6px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 4px 4px;
+  z-index: 10;
+}
