@@ -2,7 +2,7 @@
   position: relative;
   width: auto;
   border-radius: 1em;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .tetromino {
@@ -18,7 +18,8 @@
   top: -2px;
   width: 6px;
   height: 6px;
-  background-color: rgba(255, 255, 255, 0.4);
+  /* background-color: rgba(255, 255, 255, 0.4); */
+  background-color: rgba(36, 95, 223, 1);
   border-radius: 4px 4px;
   z-index: 10;
 }
