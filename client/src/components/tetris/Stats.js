@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Stats.css";
 
 const Stats = ({ stats }) => {
   const { level, score, linesPerLevel, linesComplete } = stats;
