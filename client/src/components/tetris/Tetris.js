@@ -1,5 +1,6 @@
 import React from "react";
 import Board from "./Board";
+import Stats from "./Stats";
 import { useBoard } from "../../hooks/useBoard";
 import "../styles/Tetris.css";
 
