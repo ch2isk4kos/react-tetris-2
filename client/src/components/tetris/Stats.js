@@ -1,11 +1,18 @@
 import React from "react";
 
-const Stats = ({ score, level }) => {
+const Stats = ({ stats }) => {
+  const { level, score, linesPerLevel, linesComplete } = stats;
+  const lines = linesPerLevel - linesComplete;
+
   return (
-    <div className="Stats">
-      <div className="score">{score}</div>
-      <div className="level">{level}</div>
-    </div>
+    <ul className="Stats stats__right">
+      <li>Score</li>
+      <li className="value">{level}</li>
+      <li>Score</li>
+      <li className="value">{lines}</li>
+      <li>Score</li>
+      <li className="value">{score}</li>
+    </ul>
   );
 };
 
