@@ -17,4 +17,4 @@ const Stats = ({ stats }) => {
   );
 };
 
-export default React.memo(Stats);
+export default React.memo(Stats); // component only updates whenever stats prop changes
