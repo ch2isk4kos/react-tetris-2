@@ -13,13 +13,13 @@
   color: blue;
 }
 
-.Stats .left {
+.Stats .Stats__left {
   right: 0;
   top: 22vh;
   text-align: left;
 }
 
-.Stats .right {
+.Stats .Stats__right {
   right: 0;
   bottom: 0;
   text-align: left;
