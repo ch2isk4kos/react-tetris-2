@@ -6,7 +6,7 @@ const Stats = ({ stats }) => {
   const lines = linesPerLevel - linesComplete;
 
   return (
-    <ul className="Stats stats__right">
+    <ul className="Stats right">
       <li>Score</li>
       <li className="value">{level}</li>
       <li>Score</li>

@@ -11,13 +11,13 @@
   color: rgba(255, 255, 255, 1);
 }
 
-.Stats__left {
+.Stats .left {
   right: 0;
   top: 22vh;
   text-align: left;
 }
 
-.Stats__right {
+.Stats .right {
   right: 0;
   bottom: 0;
   text-align: left;
