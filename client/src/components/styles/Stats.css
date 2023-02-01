@@ -7,13 +7,13 @@
   border: 2px solid green;
 }
 
-.Stats .Stats__left {
+.Stats__left {
   right: 0;
   top: 22vh;
   text-align: left;
 }
 
-.Stats .Stats__right {
+.Stats__right {
   right: 0;
   bottom: 0;
   text-align: left;
