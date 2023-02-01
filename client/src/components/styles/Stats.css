@@ -3,7 +3,8 @@
   width: 22vw;
   list-style-type: none;
   /* color: rgba(255, 255, 255, 0.5); */
-  color: blue;
+  color: red;
+  border: 2px solid green;
 }
 
 .Stats .Stats__left {
