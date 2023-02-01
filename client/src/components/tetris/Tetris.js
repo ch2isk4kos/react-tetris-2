@@ -7,7 +7,7 @@ import "../styles/Tetris.css";
 
 const Tetris = ({ rows, columns, setIsGameOver }) => {
   const [board, setBoard] = useBoard({ rows, columns });
-  const [stats, setStats] = useStats();
+  const [stats, addLinesCleared] = useStats();
 
   return (
     <div className="Tetris">
