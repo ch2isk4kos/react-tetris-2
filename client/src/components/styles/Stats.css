@@ -10,3 +10,9 @@
   margin-bottom: 0.5em;
   color: rgba(255, 255, 255, 1);
 }
+
+.Stats__left {
+  right: 0;
+  top: 22vh;
+  text-align: left;
+}
