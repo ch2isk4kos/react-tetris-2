@@ -16,3 +16,9 @@
   top: 22vh;
   text-align: left;
 }
+
+.Stats__right {
+  right: 0;
+  bottom: 0;
+  text-align: left;
+}
