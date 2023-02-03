@@ -10,4 +10,4 @@ const Preview = ({ tetrominoes }) => {
   );
 };
 
-export default Preview;
+export default React.memo(Preview);
