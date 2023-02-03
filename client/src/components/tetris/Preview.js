@@ -1,5 +1,6 @@
 import React from "react";
 import { buildBoard } from "../../utilities/board";
+import { displayTetrominoPreview } from "../../utilities/tetrominoes";
 
 const Preview = ({ tetronmino, index }) => {
   const { shape, className } = tetronmino;
