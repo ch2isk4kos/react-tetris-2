@@ -5,7 +5,9 @@ const Previews = ({ tetrominoes }) => {
   const previews = tetrominoes.slice(1 - tetrominoes.length).reverse();
   return (
     <div className="Previews">
-      <Preview />
+      {previews.map((tetromino, index) => (
+        <Preview tetromino={tetromino} index={index} key={index} />
+      ))}
     </div>
   );
 };
