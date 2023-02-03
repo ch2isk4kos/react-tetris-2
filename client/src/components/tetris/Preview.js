@@ -1,6 +1,6 @@
 import React from "react";
 
-const Preview = () => {
+const Preview = ({ tetronmino, index }) => {
   return (
     <div>
       {/*  */}
