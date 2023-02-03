@@ -1,5 +1,6 @@
 import React from "react";
 import Board from "./Board";
+import Preview from "./Preview";
 import Stats from "./Stats";
 import { useBoard } from "../../hooks/useBoard";
 import { useStats } from "../../hooks/useStats";
@@ -13,6 +14,7 @@ const Tetris = ({ rows, columns, setIsGameOver }) => {
     <div className="Tetris">
       <Board board={board} />
       <Stats stats={stats} />
+      <Preview />
     </div>
   );
 };
