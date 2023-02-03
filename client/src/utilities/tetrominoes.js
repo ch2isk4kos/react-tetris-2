@@ -1,3 +1,3 @@
-export const renderOnBoard = () => {
+export const displayTetrominoPreview = () => {
   //
 };
