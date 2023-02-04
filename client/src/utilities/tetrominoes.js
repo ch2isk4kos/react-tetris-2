@@ -1,3 +1,3 @@
-export const displayTetrominoPreview = () => {
+export const displayTetromino = () => {
   //
 };
