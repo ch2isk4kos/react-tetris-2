@@ -15,4 +15,6 @@ export const displayTetromino = ({
       }
     });
   });
+
+  return rows;
 };
