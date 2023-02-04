@@ -59,6 +59,8 @@ export const TETROMINOES = {
   },
 };
 
+export const randomTetromino = () => {};
+
 export const displayTetromino = ({
   className,
   isOccupied,
