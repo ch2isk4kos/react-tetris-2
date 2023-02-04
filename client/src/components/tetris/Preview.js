@@ -2,6 +2,7 @@ import React from "react";
 import Cell from "./Cell";
 import { buildBoard } from "../../utilities/board";
 import { displayTetrominoPreview } from "../../utilities/tetrominoes";
+import "../styles/Preview.css";
 
 const Preview = ({ tetronmino, index }) => {
   const { shape, className } = tetronmino;
