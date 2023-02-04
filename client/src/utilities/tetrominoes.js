@@ -1,3 +1,5 @@
+const className = "tetromino";
+
 export const displayTetromino = ({
   className,
   isOccupied,
