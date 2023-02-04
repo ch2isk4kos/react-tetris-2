@@ -4,6 +4,7 @@ import Previews from "./Previews";
 import Stats from "./Stats";
 import { useBoard } from "../../hooks/useBoard";
 import { useStats } from "../../hooks/useStats";
+import { usePlayer } from "../../hooks/usePlayer";
 import "../styles/Tetris.css";
 
 const Tetris = ({ rows, columns, setIsGameOver }) => {
