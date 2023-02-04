@@ -1,4 +1,4 @@
 export const defaultCell = {
-  isOccupied: false,
+  occupied: false,
   className: "",
 };
