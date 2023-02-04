@@ -16,7 +16,7 @@ const Preview = ({ tetronmino, index }) => {
   });
 
   return (
-    <div className="Preview">
+    <div className="Preview" style={style}>
       {/*  */}
       {/*  */}
     </div>
