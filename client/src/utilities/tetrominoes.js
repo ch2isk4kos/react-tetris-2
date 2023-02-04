@@ -59,7 +59,9 @@ export const TETROMINOES = {
   },
 };
 
-export const randomTetromino = () => {};
+export const randomTetromino = () => {
+  const keys = Object.keys(TETROMINOES);
+};
 
 export const displayTetromino = ({
   className,
