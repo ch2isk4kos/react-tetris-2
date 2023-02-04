@@ -1,4 +1,5 @@
 import React from "react";
+import Cell from "./Cell";
 import { buildBoard } from "../../utilities/board";
 import { displayTetrominoPreview } from "../../utilities/tetrominoes";
 
@@ -17,7 +18,13 @@ const Preview = ({ tetronmino, index }) => {
 
   return (
     <div className="Preview" style={style}>
-      <div className="preview-board"></div>
+      <div className="preview-board">
+        {board.rows.map((row, y) =>
+          row.map((cell, x) => (
+            <Cell key={x * board.size.columns + x} cell={cell} />
+          ))
+        )}
+      </div>
     </div>
   );
 };
