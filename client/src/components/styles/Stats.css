@@ -1,6 +1,6 @@
 .Stats {
   position: absolute;
-  width: 22vw;
+  width: 25vw;
   list-style-type: none;
   /* color: rgba(255, 255, 255, 0.5); */
   color: red;
@@ -15,8 +15,8 @@
 
 .Stats__right {
   right: 0;
-  bottom: 2em;
-  /* bottom: 0; */
+  /* bottom: 2em; */
+  bottom: 0;
   /* top: 22vh; */
   text-align: left;
 }
