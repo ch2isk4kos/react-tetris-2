@@ -7,7 +7,7 @@ import "../styles/Preview.css";
 const Preview = ({ tetromino, index }) => {
   const { shape, className } = tetromino;
   const previewBoard = buildBoard({ rows: 4, columns: 4 });
-  const style = { top: `${index + 15}vw` };
+  const style = { top: `${index * 15}vw` };
 
   previewBoard.rows = displayTetromino({
     className,
