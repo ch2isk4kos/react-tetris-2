@@ -9,4 +9,6 @@ export const usePlayer = () => {
   const resetPlayer = useCallback(() => {
     setPlayer((p) => buildPlayer(p));
   }, []);
+
+  return [player, setPlayer, resetPlayer];
 };
