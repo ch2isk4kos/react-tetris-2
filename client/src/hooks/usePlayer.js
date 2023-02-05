@@ -2,4 +2,6 @@ import { useState, useCallback } from "react";
 
 import { randomTetromino } from "../utilities/tetrominoes";
 
-export const usePlayer = () => {};
+export const usePlayer = () => {
+  const [player, setPlayer] = useState();
+};
