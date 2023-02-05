@@ -5,4 +5,8 @@ import { randomTetromino } from "../utilities/tetrominoes";
 
 export const usePlayer = () => {
   const [player, setPlayer] = useState(buildPlayer());
+
+  const resetPlayer = useCallback(() => {
+    setPlayer((p) => buildPlayer(p));
+  });
 };
