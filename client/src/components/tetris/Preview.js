@@ -30,4 +30,4 @@ const Preview = ({ tetromino, index }) => {
   );
 };
 
-export default Preview;
+export default React.memo(Preview);
