@@ -14,5 +14,4 @@
   grid-template-columns: repeat(4, 1fr);
   width: 11vw;
   height: 11vh;
-  border: 2px solid red;
 }
