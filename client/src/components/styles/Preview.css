@@ -9,9 +9,10 @@
 
 .preview-board {
   display: grid;
-  grid-gap: 2px;
+  gap: 2px;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(4, 1fr);
   width: 11vw;
   height: 11vh;
+  border: 2px solid red;
 }
