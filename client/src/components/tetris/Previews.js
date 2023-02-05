@@ -1,6 +1,5 @@
 import React from "react";
 import Preview from "./Preview";
-import "../styles/Previews.css";
 
 const Previews = ({ tetrominoes }) => {
   const previews = tetrominoes.slice(1 - tetrominoes.length).reverse();
