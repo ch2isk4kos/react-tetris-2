@@ -4,15 +4,15 @@ import { buildBoard } from "../../utilities/board";
 import { displayTetromino } from "../../utilities/tetrominoes";
 import "../styles/Preview.css";
 
-const Preview = ({ tetronmino, index }) => {
-  const { shape, className } = tetronmino;
+const Preview = ({ tetromino, index }) => {
+  const { shape, className } = tetromino;
   const previewBoard = buildBoard({ rows: 4, columns: 4 });
   const style = { top: `${index + 15}vw` };
 
   previewBoard.rows = displayTetromino({
     className,
     isOccupied: false,
-    position: { rows: 0, columns: 0 },
+    position: { row: 0, column: 0 },
     rows: previewBoard.rows,
     shape,
   });
