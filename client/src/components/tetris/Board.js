@@ -3,7 +3,7 @@ import Cell from "./Cell";
 import "../styles/Board.css";
 
 const Board = ({ board }) => {
-  console.log("board:", board);
+  console.log("tetris/Board.js:", board);
 
   const classStyles = {
     gridTemplateRows: `repeat(${board.size.rows}, 1fr)`,
