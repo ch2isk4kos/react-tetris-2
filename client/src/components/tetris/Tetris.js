@@ -8,9 +8,15 @@ import { usePlayer } from "../../hooks/usePlayer";
 import "../styles/Tetris.css";
 
 const Tetris = ({ rows, columns, setIsGameOver }) => {
-  const [board, setBoard] = useBoard({ rows, columns });
   const [stats, addLinesCleared] = useStats();
   const [player, setPlayer, resetPlayer] = usePlayer();
+  const [board, setBoard] = useBoard({
+    rows,
+    columns,
+    player,
+    resetPlayer,
+    addLinesCleared,
+  });
 
   return (
     <div className="Tetris">
