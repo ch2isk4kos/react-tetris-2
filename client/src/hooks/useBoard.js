@@ -14,7 +14,7 @@ export const useBoard = ({
     setBoard((previousBoard) =>
       nextBoard({ board: previousBoard, player, resetPlayer, addLinesCleared })
     );
-  });
+  }, [player, resetPlayer, addLinesCleared]);
 
   return [board];
 };
