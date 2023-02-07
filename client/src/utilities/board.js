@@ -10,3 +10,10 @@ export const buildBoard = ({ rows, columns }) => {
     size: { rows, columns },
   };
 };
+
+export const nextBoard = ({
+  board,
+  player,
+  resetPlayer,
+  addLinesCleared,
+}) => {};
