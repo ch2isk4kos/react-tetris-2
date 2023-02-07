@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { buildBoard } from "../utilities/board";
 
 export const useBoard = ({
@@ -9,6 +9,12 @@ export const useBoard = ({
   addLinesCleared,
 }) => {
   const [board] = useState(buildBoard({ rows, columns }));
+
+  useEffect(() => {
+    setBoard((previousBoard) =>
+      nextBoard({ board: previousBoard, player, resetPlayer, addLinesCleared })
+    );
+  });
 
   return [board];
 };
