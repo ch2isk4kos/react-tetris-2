@@ -13,7 +13,9 @@ export const buildBoard = ({ rows, columns }) => {
 };
 
 export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
-  const { tetromino, position } = player;
+  const { tetromino, position, collided } = player;
+
+  console.log("util/board.js: nextBoard player", player);
 
   // copy/clear spaces used by pieces that haven't collided
   let rows = board.rows.map((row) =>
@@ -23,11 +25,13 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
   // update rows
   rows = displayTetromino({
     className: tetromino.className,
-    isOccupied: player.occupied,
+    isOccupied: collided,
     position,
     rows,
     shape: tetromino.shape,
   });
+
+  console.log("util/board.js: nextBoard rows", player);
 
   return {
     rows,
