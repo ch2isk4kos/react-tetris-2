@@ -5,13 +5,13 @@ import "../styles/Board.css";
 const Board = ({ board }) => {
   console.log("tetris/Board.js:", board);
 
-  const classStyles = {
+  const boardStyles = {
     gridTemplateRows: `repeat(${board.size.rows}, 1fr)`,
     gridTemplateCols: `repeat(${board.size.columns}, 1fr)`,
   };
 
   return (
-    <div className="Board" style={classStyles}>
+    <div className="Board" style={boardStyles}>
       {board.rows.map((row, y) =>
         row.map((cell, x) => (
           <Cell key={x * board.size.columns + x} cell={cell} />
