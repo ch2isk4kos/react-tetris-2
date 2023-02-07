@@ -18,6 +18,8 @@ const Tetris = ({ rows, columns, setIsGameOver }) => {
     addLinesCleared,
   });
 
+  console.log("Tetris.js: board", board);
+
   return (
     <div className="Tetris">
       <Board board={board} />
