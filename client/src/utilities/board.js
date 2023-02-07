@@ -1,4 +1,5 @@
 import { defaultCell } from "./cell";
+import { displayTetromino } from "./tetrominoes";
 
 export const buildBoard = ({ rows, columns }) => {
   const matrix = Array.from({ length: rows }, () =>
@@ -18,4 +19,18 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
   let rows = board.rows.map((row) =>
     row.map((cell) => (cell.occupied ? cell : { ...defaultCell }))
   );
+
+  // update rows
+  rows = displayTetromino({
+    className: tetromino.className,
+    isOccupied: player.occupied,
+    position,
+    rows,
+    shape: tetromino.shape,
+  });
+
+  return {
+    rows,
+    size: { ...board.size },
+  };
 };
