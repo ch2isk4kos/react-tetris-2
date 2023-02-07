@@ -11,9 +11,6 @@ export const buildBoard = ({ rows, columns }) => {
   };
 };
 
-export const nextBoard = ({
-  board,
-  player,
-  resetPlayer,
-  addLinesCleared,
-}) => {};
+export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
+  const { tetromino, position } = player;
+};
