@@ -1,6 +1,6 @@
 import React from "react";
 
-const GameController = () => {
+const GameController = ({ board, stats, player, setIsGameOver }) => {
   return (
     <div className="GameController">
       {/*  */}
