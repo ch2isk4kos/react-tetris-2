@@ -14,6 +14,7 @@ export const buildBoard = ({ rows, columns }) => {
 
 export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
   const { tetromino, position, collided } = player;
+  const { className, shape } = tetromino;
 
   console.log("util/board.js: nextBoard player", player);
 
@@ -24,14 +25,12 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
 
   // update rows
   rows = displayTetromino({
-    className: tetromino.className,
+    className,
     isOccupied: collided,
     position,
     rows,
-    shape: tetromino.shape,
+    shape,
   });
-
-  console.log("util/board.js: nextBoard rows", player);
 
   return {
     rows,
