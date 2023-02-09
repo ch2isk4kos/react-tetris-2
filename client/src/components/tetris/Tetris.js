@@ -24,7 +24,13 @@ const Tetris = ({ rows, columns, setIsGameOver }) => {
       <Board board={board} />
       <Stats stats={stats} />
       <Previews tetrominoes={player.tetrominoes} />
-      <GameController />
+      <GameController
+        board={board}
+        stats={stats}
+        player={player}
+        setIsGameOver={setIsGameOver}
+        setPlayer={setPlayer}
+      />
     </div>
   );
 };
