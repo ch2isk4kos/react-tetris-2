@@ -6,7 +6,7 @@ const Board = ({ board }) => {
 
   const boardStyles = {
     gridTemplateRows: `repeat(${board.size.rows}, 1fr)`,
-    gridTemplateCols: `repeat(${board.size.columns}, 1fr)`,
+    gridTemplateColumns: `repeat(${board.size.columns}, 1fr)`,
   };
 
   return (
