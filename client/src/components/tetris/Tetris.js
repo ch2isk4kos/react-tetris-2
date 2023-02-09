@@ -28,8 +28,8 @@ const Tetris = ({ rows, columns, setIsGameOver }) => {
         board={board}
         stats={stats}
         player={player}
-        setIsGameOver={setIsGameOver}
         setPlayer={setPlayer}
+        setIsGameOver={setIsGameOver}
       />
     </div>
   );
