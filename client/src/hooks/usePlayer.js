@@ -1,5 +1,4 @@
 import { useState, useCallback } from "react";
-
 import { buildPlayer } from "../utilities/player";
 
 export const usePlayer = () => {
