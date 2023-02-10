@@ -2,10 +2,9 @@ import React from "react";
 
 const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
   return (
-    <div className="GameController">
+    <input className="GameController" type="text">
       {/*  */}
-      {/*  */}
-    </div>
+    </input>
   );
 };
 
