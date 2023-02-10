@@ -4,7 +4,6 @@ import "../styles/GameController.css";
 
 const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
   const onKeyUp = ({ code }) => {
-    console.log("onKeyUp:", code);
     const action = actionForKey(code);
     if (action === Action.Quit) setIsGameOver(true);
   };
