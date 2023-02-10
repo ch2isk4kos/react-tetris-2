@@ -13,7 +13,7 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
     const action = actionForKey(code);
   };
 
-  const onInput = ({ action }) => {};
+  const handleOnInput = ({ action }) => {};
 
   return (
     <input
