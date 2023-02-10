@@ -10,6 +10,7 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
 
   const onKeyDown = ({ code }) => {
     console.log("onKeyDown:", code);
+    const action = actionForKey(code);
   };
 
   const onInput = ({ action }) => {};
