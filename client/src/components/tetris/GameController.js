@@ -12,6 +12,8 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
     console.log("onKeyDown:", code);
   };
 
+  const onInput = ({ action }) => {};
+
   return (
     <input
       className="GameController"
