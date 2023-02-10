@@ -7,3 +7,5 @@ export const Key = {
   KeyP: Action.Pause,
   Space: Action.FastDrop,
 };
+
+export const actionForKey = (code) => Key[code];
