@@ -1,4 +1,5 @@
 import React from "react";
+import { actionForKey } from "../../utilities/input/action";
 import "../styles/GameController.css";
 
 const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
