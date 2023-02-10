@@ -8,6 +8,7 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
       type="text"
       onKeyUp={onKeyUp}
       onKeyDown={onKeyDown}
+      autoFocus
     >
       {/*  */}
     </input>
