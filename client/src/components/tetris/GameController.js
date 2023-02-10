@@ -3,11 +3,11 @@ import "../styles/GameController.css";
 
 const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
   const onKeyUp = ({ code }) => {
-    //
+    console.log("onKeyUp:", code);
   };
 
   const onKeyDown = ({ code }) => {
-    //
+    console.log("onKeyDown:", code);
   };
 
   return (
