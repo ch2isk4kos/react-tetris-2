@@ -4,6 +4,7 @@ import "../styles/GameController.css";
 const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
   const onKeyUp = ({ code }) => {
     console.log("onKeyUp:", code);
+    if (code === "KeyQ") setIsGameOver(true);
   };
 
   const onKeyDown = ({ code }) => {
