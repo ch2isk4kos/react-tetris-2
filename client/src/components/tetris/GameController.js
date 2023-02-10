@@ -5,6 +5,11 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
   const onKeyUp = ({ code }) => {
     //
   };
+
+  const onKeyDown = ({ code }) => {
+    //
+  };
+
   return (
     <input
       className="GameController"
