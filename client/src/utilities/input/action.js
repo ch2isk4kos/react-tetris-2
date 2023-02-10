@@ -13,9 +13,9 @@ export const Key = {
   ArrowRight: Action.Right,
   ArrowDown: Action.SlowDrop,
   ArrowLeft: Action.Left,
-  KeyQ: Action.Quit,
-  KeyP: Action.Pause,
   Space: Action.FastDrop,
+  KeyP: Action.Pause,
+  KeyQ: Action.Quit,
 };
 
 export const actionForKey = (code) => Key[code];
