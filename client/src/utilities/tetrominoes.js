@@ -87,7 +87,7 @@ export const displayTetromino = ({
   return rows;
 };
 
-const rotateTetromino = ({ board, player, setPlayer }) => {};
+const rotateTetromino = ({ piece, direction }) => {};
 
 const isInBounds = ({ board, position, shape }) => {};
 
