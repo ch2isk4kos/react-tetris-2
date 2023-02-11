@@ -104,4 +104,11 @@ export const checkForRotation = ({ board, player, setPlayer }) => {
   const isValid =
     isInBounds({ board, position, shape }) &&
     !hasCollision({ board, position, shape });
+
+  if (isValid) {
+    setPlayer({
+      ...player,
+      tetromino: { ...player.tetromino, shape },
+    });
+  } else return false;
 };
