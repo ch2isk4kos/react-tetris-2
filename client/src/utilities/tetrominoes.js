@@ -87,6 +87,11 @@ export const displayTetromino = ({
   return rows;
 };
 
-export const checkForRotation = ({ board, player, setPlayer }) => {};
-
 export const rotateTetromino = ({ board, player, setPlayer }) => {};
+
+export const checkForRotation = ({ board, player, setPlayer }) => {
+  const shape = rotateTetromino({
+    piece: player.tetromino.shape,
+    direction: 1,
+  });
+};
