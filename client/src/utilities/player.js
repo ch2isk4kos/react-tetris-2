@@ -34,5 +34,5 @@ export const playerController = ({
   setIsGameOver,
 }) => {
   if (!action) return;
-  if (action === Action.Rotate) rotateTetromino({ board, player, setPlayer });
+  if (action === Action.Rotate) checkForRotation({ board, player, setPlayer });
 };
