@@ -27,4 +27,6 @@ export const playerController = ({
   player,
   setPlayer,
   setIsGameOver,
-}) => {};
+}) => {
+  if (!action) return;
+};
