@@ -20,3 +20,5 @@ export const buildPlayer = (previous) => {
     tetromino: tetrominoes.pop(),
   };
 };
+
+export const playerController = () => {};
