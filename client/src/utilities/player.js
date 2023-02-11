@@ -1,5 +1,9 @@
 import { Action } from "./input/action";
-import { randomTetromino, rotateTetromino } from "./tetrominoes";
+import {
+  randomTetromino,
+  checkForRotation,
+  rotateTetromino,
+} from "./tetrominoes";
 
 export const buildPlayer = (previous) => {
   let tetrominoes;
