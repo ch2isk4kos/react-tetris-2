@@ -21,4 +21,10 @@ export const buildPlayer = (previous) => {
   };
 };
 
-export const playerController = () => {};
+export const playerController = ({
+  action,
+  board,
+  player,
+  setPlayer,
+  setIsGameOver,
+}) => {};
