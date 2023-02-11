@@ -94,4 +94,6 @@ export const checkForRotation = ({ board, player, setPlayer }) => {
     piece: player.tetromino.shape,
     direction: 1,
   });
+
+  const position = player.position;
 };
