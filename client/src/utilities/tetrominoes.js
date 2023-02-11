@@ -87,7 +87,10 @@ export const displayTetromino = ({
   return rows;
 };
 
-const rotateTetromino = ({ piece, direction }) => {};
+const rotateTetromino = ({ piece, direction }) => {
+  // transpose rows and columns
+  // reverse rows to achieve a rotated matrix
+};
 
 const isInBounds = ({ board, position, shape }) => {};
 
