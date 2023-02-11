@@ -89,6 +89,10 @@ export const displayTetromino = ({
 
 const rotateTetromino = ({ piece, direction }) => {
   // transpose rows and columns
+  const tetromino = piece.map((_, index) =>
+    piece.map((column) => column[index])
+  );
+
   // reverse rows to achieve a rotated matrix
 };
 
