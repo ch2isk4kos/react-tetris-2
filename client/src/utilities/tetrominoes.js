@@ -94,6 +94,7 @@ const rotateTetromino = ({ piece, direction }) => {
   );
 
   // reverse rows to achieve a rotated matrix
+  if (direction > 0) return tetromino.map((row) => row.reverse());
 };
 
 const isInBounds = ({ board, position, shape }) => {};
