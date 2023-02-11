@@ -89,6 +89,8 @@ export const displayTetromino = ({
 
 export const rotateTetromino = ({ board, player, setPlayer }) => {};
 
+const isInBounds = ({ board, position, shape }) => {};
+
 export const checkForRotation = ({ board, player, setPlayer }) => {
   const shape = rotateTetromino({
     piece: player.tetromino.shape,
@@ -96,4 +98,8 @@ export const checkForRotation = ({ board, player, setPlayer }) => {
   });
 
   const position = player.position;
+
+  const isValid =
+    isInBounds({ board, position, shape }) &&
+    !hasCollision({ board, position, shape });
 };
