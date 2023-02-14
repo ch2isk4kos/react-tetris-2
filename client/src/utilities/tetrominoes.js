@@ -1,5 +1,5 @@
+import { Action } from "./input/action";
 import { isInBounds, hasCollision } from "./board";
-
 const className = "tetromino";
 
 export const TETROMINOES = {
