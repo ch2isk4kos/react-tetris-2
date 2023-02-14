@@ -53,4 +53,14 @@ export const isInBounds = ({ board, position, shape }) => {
   return true;
 };
 
-export const hasCollision = ({ board, position, shape }) => {};
+export const hasCollision = ({ board, position, shape }) => {
+  for (let y = 0; y < shape.length; y++) {
+    const row = y + position.row;
+
+    for (let x = 0; x < shape[y].length; x++) {
+      if (shape[y][x]) {
+        const column = x + position.column;
+      }
+    }
+  }
+};
