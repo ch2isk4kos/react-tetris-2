@@ -15,7 +15,15 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
     handleOnInput({ action });
   };
 
-  const handleOnInput = ({ action }) => {};
+  const handleOnInput = ({ action }) => {
+    playerController({
+      action,
+      board,
+      player,
+      setPlayer,
+      setIsGameOver,
+    });
+  };
 
   return (
     <input
