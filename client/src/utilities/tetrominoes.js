@@ -126,4 +126,6 @@ export const checkForMovement = ({
   player,
   setPlayer,
   setIsGameOver,
-}) => {};
+}) => {
+  // capture how far player is trying to move
+};
