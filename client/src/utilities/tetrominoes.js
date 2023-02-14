@@ -129,4 +129,6 @@ export const checkForMovement = ({
 }) => {
   // capture how far player is trying to move
   const delta = { row: 0, column: 0 };
+  // clear fast dropping each time through
+  // isFastDropping = false;
 };
