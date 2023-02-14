@@ -119,3 +119,11 @@ export const checkForRotation = ({ board, player, setPlayer }) => {
     });
   } else return false;
 };
+
+export const checkForMovement = ({
+  action,
+  board,
+  player,
+  setPlayer,
+  setIsGameOver,
+}) => {};
