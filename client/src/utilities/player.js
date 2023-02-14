@@ -1,5 +1,9 @@
 import { Action } from "./input/action";
-import { randomTetromino, checkForRotation } from "./tetrominoes";
+import {
+  randomTetromino,
+  checkForMovement,
+  checkForRotation,
+} from "./tetrominoes";
 
 export const buildPlayer = (previous) => {
   let tetrominoes;
@@ -30,5 +34,9 @@ export const playerController = ({
   setIsGameOver,
 }) => {
   if (!action) return;
-  if (action === Action.Rotate) checkForRotation({ board, player, setPlayer });
+  if (action === Action.Rotate) {
+    checkForRotation({ board, player, setPlayer });
+  } else {
+    checkForMovement({ action, board, player, setPlayer, setIsGameOver });
+  }
 };
