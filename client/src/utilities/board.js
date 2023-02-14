@@ -42,7 +42,13 @@ export const isInBounds = ({ board, position, shape }) => {
   for (let y = 0; y < shape.length; y++) {
     const row = y + position.row;
 
-    for (let x = 0; x < shape[y].length; x++) {}
+    for (let x = 0; x < shape[y].length; x++) {
+      if (shape[y][x]) {
+        const column = x + position.column;
+        const isValidPosition = board.rows[row] && board.rows[row][column];
+        if (isValidPosition) return false;
+      }
+    }
   }
 };
 
