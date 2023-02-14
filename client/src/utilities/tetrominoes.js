@@ -128,4 +128,5 @@ export const checkForMovement = ({
   setIsGameOver,
 }) => {
   // capture how far player is trying to move
+  const delta = { row: 0, column: 0 };
 };
