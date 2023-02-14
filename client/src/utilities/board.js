@@ -60,6 +60,14 @@ export const hasCollision = ({ board, position, shape }) => {
     for (let x = 0; x < shape[y].length; x++) {
       if (shape[y][x]) {
         const column = x + position.column;
+
+        if (
+          board.rows[row] &&
+          board.rows[row][column] &&
+          board.rows[row][column].occupied
+        ) {
+          return true;
+        }
       }
     }
   }
