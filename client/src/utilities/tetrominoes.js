@@ -132,6 +132,11 @@ export const checkForMovement = ({
   // clear fast dropping each time through
   let isFastDropping = false;
 
+  if (action === Action.FastDrop) isFastDropping = true;
+  else if (action === Action.SlowDrop) delta.row += 1;
+  else if (action === Action.Left) delta.column -= 1;
+  else if (action === Action.Right) delta.column += 1;
+
   // switch (Action) {
   //   case action === Action.FastDrop:
   //     isFastDropping = true;
