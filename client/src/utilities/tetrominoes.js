@@ -130,5 +130,21 @@ export const checkForMovement = ({
   // capture how far player is trying to move
   const delta = { row: 0, column: 0 };
   // clear fast dropping each time through
-  // isFastDropping = false;
+  let isFastDropping = false;
+
+  // switch (Action) {
+  //   case action === Action.FastDrop:
+  //     isFastDropping = true;
+  //     break;
+  //   case action === Action.SlowDrop:
+  //     delta.row += 1;
+  //     break;
+  //   case action === Action.Left:
+  //     delta.column -= 1;
+  //     break;
+  //   case action === Action.Right:
+  //     delta.column += 1;
+  //     break;
+  //   default:
+  // }
 };
