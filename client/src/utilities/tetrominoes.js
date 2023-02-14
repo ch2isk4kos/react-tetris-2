@@ -129,9 +129,11 @@ export const checkForMovement = ({
 }) => {
   // capture how far player is trying to move
   const delta = { row: 0, column: 0 };
+
   // clear fast dropping each time through
   let isFastDropping = false;
 
+  // modify delta movement based on keypress
   if (action === Action.FastDrop) isFastDropping = true;
   else if (action === Action.SlowDrop) delta.row += 1;
   else if (action === Action.Left) delta.column -= 1;
