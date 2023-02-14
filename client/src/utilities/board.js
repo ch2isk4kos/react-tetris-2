@@ -37,3 +37,7 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
     size: { ...board.size },
   };
 };
+
+const isInBounds = ({ board, position, shape }) => {};
+
+const hasCollision = ({ board, position, shape }) => {};
