@@ -1,3 +1,5 @@
+import { isInBounds, hasCollision } from "./board";
+
 const className = "tetromino";
 
 export const TETROMINOES = {
@@ -97,10 +99,6 @@ const rotateTetromino = ({ piece, direction }) => {
   if (direction > 0) return tetromino.map((row) => row.reverse());
   return tetromino.reverse();
 };
-
-const isInBounds = ({ board, position, shape }) => {};
-
-const hasCollision = ({ board, position, shape }) => {};
 
 export const checkForRotation = ({ board, player, setPlayer }) => {
   const shape = rotateTetromino({
