@@ -38,6 +38,6 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
   };
 };
 
-const isInBounds = ({ board, position, shape }) => {};
+export const isInBounds = ({ board, position, shape }) => {};
 
-const hasCollision = ({ board, position, shape }) => {};
+export const hasCollision = ({ board, position, shape }) => {};
