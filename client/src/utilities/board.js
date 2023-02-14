@@ -71,4 +71,5 @@ export const hasCollision = ({ board, position, shape }) => {
       }
     }
   }
+  return false;
 };
