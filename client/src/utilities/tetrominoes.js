@@ -106,6 +106,8 @@ const moveTetromino = ({ delta, position, shape, board }) => {
     row: position.row + delta.row,
     column: position.column + delta.column,
   };
+
+  // will there be a collision where player intends to go?
 };
 
 export const checkForRotation = ({ board, player, setPlayer }) => {
