@@ -150,4 +150,5 @@ export const checkForMovement = ({
 
   // if immediate collision - game over
   const isGameOver = collided && player.position.row === 0;
+  if (isGameOver) setIsGameOver(isGameOver);
 };
