@@ -16,8 +16,6 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
   const { tetromino, position, collided } = player;
   const { className, shape } = tetromino;
 
-  console.log("util/board.js: nextBoard player", player);
-
   // copy/clear spaces used by pieces that haven't collided
   let rows = board.rows.map((row) =>
     row.map((cell) => (cell.occupied ? cell : { ...defaultCell }))
@@ -33,6 +31,7 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
   });
 
   // if collision - reset player
+  if (player.collided || player.isFastDropping) resetPlayer();
 
   return {
     rows,
