@@ -2,8 +2,6 @@ import Cell from "./Cell";
 import "../styles/Board.css";
 
 const Board = ({ board }) => {
-  console.log("Board.js: board", board);
-
   const boardStyles = {
     gridTemplateRows: `repeat(${board.size.rows}, 1fr)`,
     gridTemplateColumns: `repeat(${board.size.columns}, 1fr)`,
