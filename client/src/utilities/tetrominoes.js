@@ -113,6 +113,8 @@ const moveTetromino = ({ delta, position, shape, board }) => {
     position: desiredPosition,
     shape,
   });
+
+  // will player be in bounds where it intends to go?
 };
 
 export const checkForRotation = ({ board, player, setPlayer }) => {
