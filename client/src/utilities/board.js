@@ -32,6 +32,8 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
     shape,
   });
 
+  // if collision - reset player
+
   return {
     rows,
     size: { ...board.size },
