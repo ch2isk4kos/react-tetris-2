@@ -147,4 +147,7 @@ export const checkForMovement = ({
     shape: player.tetromino.shape,
     board,
   });
+
+  // if immediate collision - game over
+  const isGameOver = collided && player.position.row === 0;
 };
