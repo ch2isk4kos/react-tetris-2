@@ -141,6 +141,7 @@ export const checkForMovement = ({
   else if (action === Action.Left) delta.column -= 1;
   else if (action === Action.Right) delta.column += 1;
 
+  // destructure variables from moveTetromino retrun values
   const { collided, nextPosition } = moveTetromino({
     delta,
     position: player.position,
