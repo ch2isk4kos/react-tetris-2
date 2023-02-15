@@ -125,6 +125,8 @@ const moveTetromino = ({ delta, position, shape, board }) => {
 
   // if movement is prevented - find next position available
   const nextPosition = preventMove ? position : desiredPosition;
+
+  // keep track of downward movement - important for collisions
 };
 
 export const checkForRotation = ({ board, player, setPlayer }) => {
