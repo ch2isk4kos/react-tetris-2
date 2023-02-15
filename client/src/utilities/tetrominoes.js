@@ -100,6 +100,8 @@ const rotateTetromino = ({ piece, direction }) => {
   return tetromino.reverse();
 };
 
+const moveTetromino = () => {};
+
 export const checkForRotation = ({ board, player, setPlayer }) => {
   const shape = rotateTetromino({
     piece: player.tetromino.shape,
