@@ -108,6 +108,11 @@ const moveTetromino = ({ delta, position, shape, board }) => {
   };
 
   // will there be a collision where player intends to go?
+  const collided = hasCollision({
+    board,
+    position: desiredPosition,
+    shape,
+  });
 };
 
 export const checkForRotation = ({ board, player, setPlayer }) => {
