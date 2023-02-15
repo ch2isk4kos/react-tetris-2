@@ -140,4 +140,11 @@ export const checkForMovement = ({
   else if (action === Action.SlowDrop) delta.row += 1;
   else if (action === Action.Left) delta.column -= 1;
   else if (action === Action.Right) delta.column += 1;
+
+  const { collided, nextPosition } = moveTetromino({
+    delta,
+    position: player.position,
+    shape: player.tetromino.shape,
+    board,
+  });
 };
