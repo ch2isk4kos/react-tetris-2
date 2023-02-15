@@ -120,6 +120,8 @@ const moveTetromino = ({ delta, position, shape, board }) => {
     position: desiredPosition,
     shape,
   });
+
+  const preventMove = !inBounds || (inBounds && collided);
 };
 
 export const checkForRotation = ({ board, player, setPlayer }) => {
