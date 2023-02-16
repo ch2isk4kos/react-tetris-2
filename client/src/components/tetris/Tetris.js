@@ -1,4 +1,3 @@
-import React from "react";
 import Board from "./Board";
 import Previews from "./Previews";
 import Stats from "./Stats";
