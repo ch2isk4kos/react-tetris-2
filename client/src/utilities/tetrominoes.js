@@ -100,7 +100,7 @@ const rotateTetromino = ({ piece, direction }) => {
   return tetromino.reverse();
 };
 
-const moveTetromino = ({ delta, position, shape, board }) => {
+export const moveTetromino = ({ delta, position, shape, board }) => {
   // capture where player intends to go and do something based off that
   const desiredPosition = {
     row: position.row + delta.row,
@@ -108,7 +108,7 @@ const moveTetromino = ({ delta, position, shape, board }) => {
   };
 
   // will there be a collision where player intends to go?
-  const collided = hasCollision({
+  const hasCollided = hasCollision({
     board,
     position: desiredPosition,
     shape,
@@ -121,14 +121,14 @@ const moveTetromino = ({ delta, position, shape, board }) => {
     shape,
   });
 
-  const preventMove = !inBounds || (inBounds && collided);
+  const preventMove = !inBounds || (inBounds && hasCollided);
 
   // if movement is prevented - find next position available
   const nextPosition = preventMove ? position : desiredPosition;
 
   // keep track of downward movement - important for collisions
   const isMovingDown = delta.row > 0;
-  const isBlocked = isMovingDown && (collided || !isInBounds);
+  const isBlocked = isMovingDown && (hasCollided || !inBounds);
 
   return { collided: isBlocked, nextPosition };
 };
