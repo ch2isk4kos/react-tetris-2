@@ -13,7 +13,7 @@ export const buildBoard = ({ rows, columns }) => {
 };
 
 export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
-  const { tetromino, position, collided } = player;
+  const { tetromino, position } = player;
   const { className, shape } = tetromino;
 
   // copy/clear spaces used by pieces that haven't collided
@@ -24,7 +24,7 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
   // update rows
   rows = displayTetromino({
     className,
-    isOccupied: collided,
+    isOccupied: player.collided,
     position,
     rows,
     shape,
@@ -72,5 +72,6 @@ export const isInBounds = ({ board, position, shape }) => {
       }
     }
   }
+  console.log("Is In Bounds");
   return true;
 };
