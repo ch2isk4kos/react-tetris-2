@@ -1,6 +1,7 @@
 import React from "react";
 import { actionForKey, Action } from "../../utilities/input/action";
 import { playerController } from "../../utilities/player";
+import { useInterval } from "../../hooks/useInterval";
 import "../styles/GameController.css";
 
 const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
