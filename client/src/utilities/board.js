@@ -52,7 +52,7 @@ export const hasCollision = ({ board, position, shape }) => {
           board.rows[row][column] &&
           board.rows[row][column].occupied
         ) {
-          console.log("Collision Occurred");
+          console.log("Collision Occurred!!");
           return true;
         }
       }
@@ -70,7 +70,11 @@ export const isInBounds = ({ board, position, shape }) => {
       if (shape[y][x]) {
         const column = x + position.column;
         const isValidPosition = board.rows[row] && board.rows[row][column];
-        if (!isValidPosition) return false;
+        // if (!isValidPosition) return false;
+        if (!isValidPosition) {
+          console.log("Out of Bounds!!");
+          return false;
+        }
       }
     }
   }
