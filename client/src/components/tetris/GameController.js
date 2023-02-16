@@ -11,6 +11,7 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
 
   const onKeyDown = ({ code }) => {
     console.log("onKeyDown:", code);
+
     const action = actionForKey(code);
     handleOnInput({ action });
   };
@@ -32,9 +33,7 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
       onKeyUp={onKeyUp}
       onKeyDown={onKeyDown}
       autoFocus
-    >
-      {/*  */}
-    </input>
+    ></input>
   );
 };
 
