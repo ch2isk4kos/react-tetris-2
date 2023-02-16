@@ -52,6 +52,7 @@ export const hasCollision = ({ board, position, shape }) => {
           board.rows[row][column] &&
           board.rows[row][column].occupied
         ) {
+          console.log("Collision Occurred");
           return true;
         }
       }
