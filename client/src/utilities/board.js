@@ -57,6 +57,7 @@ export const hasCollision = ({ board, position, shape }) => {
       }
     }
   }
+  console.log("No Collision");
   return false;
 };
 
