@@ -5,7 +5,9 @@ import { useInterval } from "../../hooks/useInterval";
 import "../styles/GameController.css";
 
 const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
-  useInterval(() => {}, 1000);
+  useInterval(() => {
+    handleOnInput({ action: Action.SlowDrop });
+  }, 1000);
 
   const onKeyUp = ({ code }) => {
     const action = actionForKey(code);
