@@ -19,7 +19,9 @@ export const useDropTime = ({ stats }) => {
     setPrevDropTime(null);
   }, [prevDropTime]);
 
-  useEffect(() => {});
+  useEffect(() => {
+    const speed = Speed * (stats.level - 1);
+  });
 
   return [dropTime, pauseDropTime, resumeDropTime];
 };
