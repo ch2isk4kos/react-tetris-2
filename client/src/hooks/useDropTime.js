@@ -23,7 +23,7 @@ export const useDropTime = ({ stats }) => {
     const level = Speed * (stats.level - 1);
     const updateDropTime = Math.max(DefaultDropTime - level, MinimumDropTime);
     setDropTime(updateDropTime);
-  });
+  }, [stats.level, setDropTime]);
 
   return [dropTime, pauseDropTime, resumeDropTime];
 };
