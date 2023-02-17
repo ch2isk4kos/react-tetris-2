@@ -19,5 +19,7 @@ export const useDropTime = ({ stats }) => {
     setPrevDropTime(null);
   }, [prevDropTime]);
 
+  useEffect(() => {});
+
   return [dropTime, pauseDropTime, resumeDropTime];
 };
