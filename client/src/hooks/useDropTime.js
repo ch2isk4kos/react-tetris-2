@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 
 export const useDropTime = ({ stats }) => {
   const [dropTime, setDropTime] = useState(0);
