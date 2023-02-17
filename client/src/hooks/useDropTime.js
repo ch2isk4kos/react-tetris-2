@@ -15,6 +15,7 @@ export const useDropTime = ({ stats }) => {
 
   const resumeDropTime = useCallback(() => {
     if (!prevDropTime) return;
+    setDropTime(prevDropTime);
   }, []);
 
   return [dropTime, pauseDropTime, resumeDropTime];
