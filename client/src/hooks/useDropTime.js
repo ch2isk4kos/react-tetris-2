@@ -6,5 +6,7 @@ const Speed = 50;
 
 export const useDropTime = ({ stats }) => {
   const [dropTime, setDropTime] = useState(DefaultDropTime);
+  const [prevDropTime, setPrevDropTime] = useState();
+
   return [dropTime, pauseDropTime, resumeDropTime];
 };
