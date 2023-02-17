@@ -21,7 +21,8 @@ export const useDropTime = ({ stats }) => {
 
   useEffect(() => {
     const speed = Speed * (stats.level - 1);
-    const updateSpeed = Math.max(DefaultDropTime - speed, MinimumDropTime);
+    const updateDropTime = Math.max(DefaultDropTime - speed, MinimumDropTime);
+    setDropTime(updateDropTime);
   });
 
   return [dropTime, pauseDropTime, resumeDropTime];
