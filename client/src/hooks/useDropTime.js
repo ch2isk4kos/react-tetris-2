@@ -8,7 +8,9 @@ export const useDropTime = ({ stats }) => {
   const [dropTime, setDropTime] = useState(DefaultDropTime);
   const [prevDropTime, setPrevDropTime] = useState(); // allows for pause
 
-  const pauseDropTime = useCallback(() => {}, []);
+  const pauseDropTime = useCallback(() => {
+    if (dropTime) setPrevDropTime(dropTime);
+  }, []);
 
   const resumeDropTime = useCallback(() => {}, []);
 
