@@ -10,5 +10,7 @@ export const useDropTime = ({ stats }) => {
 
   const pauseDropTime = useCallback(() => {}, []);
 
+  const resumeDropTime = useCallback(() => {}, []);
+
   return [dropTime, pauseDropTime, resumeDropTime];
 };
