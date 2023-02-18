@@ -13,11 +13,13 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
   }, 1000);
 
   const onKeyUp = ({ code }) => {
+    console.log("onKeyUp: code", code);
     const action = actionForKey(code);
     console.log("onKeyUp: action", action);
   };
 
   const onKeyDown = ({ code }) => {
+    console.log("onKeyDown: code", code);
     const action = actionForKey(code);
     console.log("onKeyDown: action", action);
 
