@@ -21,6 +21,9 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
     console.log("onKeyDown:", code);
 
     const action = actionForKey(code);
+
+    // handle on pause
+
     handleOnInput({ action });
   };
 
