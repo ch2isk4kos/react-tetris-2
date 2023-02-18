@@ -6,24 +6,28 @@ const SPEED = 50;
 
 export const useDropTime = ({ stats }) => {
   const [dropTime, setDropTime] = useState(DEFAULT);
-  const [prevDropTime, setPrevDropTime] = useState(); // allows for pause
+  const [previousDropTime, setPreviousDropTime] = useState(); // allows for pause
+
+  const resumeDropTime = useCallback(() => {
+    if (!previousDropTime) {
+      return;
+    }
+    setDropTime(previousDropTime);
+    setPreviousDropTime(null);
+  }, [previousDropTime]);
+
+  const pauseDropTime = useCallback(() => {
+    if (dropTime) {
+      setPreviousDropTime(dropTime);
+    }
+    setDropTime(null);
+  }, [dropTime, setPreviousDropTime]);
 
   useEffect(() => {
     const level = SPEED * (stats.level - 1);
     const updateDropTime = Math.max(DEFAULT - level, MINIMUM);
     setDropTime(updateDropTime);
   }, [stats.level, setDropTime]);
-
-  const pauseDropTime = useCallback(() => {
-    if (dropTime) setPrevDropTime(dropTime);
-    setPrevDropTime(null);
-  }, [dropTime, setPrevDropTime]);
-
-  const resumeDropTime = useCallback(() => {
-    if (!prevDropTime) return;
-    setDropTime(prevDropTime);
-    setPrevDropTime(null);
-  }, [prevDropTime]);
 
   return [dropTime, pauseDropTime, resumeDropTime];
 };
