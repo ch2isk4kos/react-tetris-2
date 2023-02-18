@@ -23,6 +23,10 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
     const action = actionForKey(code);
 
     // handle on pause
+    if (action === Action.Pause) {
+      if (dropTime) pauseDropTime();
+      else resumeDropTime();
+    }
 
     handleOnInput({ action });
   };
