@@ -21,7 +21,7 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
 
     const action = actionForKey(code);
 
-    // handle on pause
+    // handle on action
     if (action === Action.Pause) {
       if (dropTime) pauseDropTime();
       else resumeDropTime();
