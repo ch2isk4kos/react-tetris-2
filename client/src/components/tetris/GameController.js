@@ -14,7 +14,6 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
 
   const onKeyUp = ({ code }) => {
     const action = actionForKey(code);
-    if (action === Action.Quit) setIsGameOver(true);
   };
 
   const onKeyDown = ({ code }) => {
@@ -26,7 +25,8 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
     if (action === Action.Pause) {
       if (dropTime) pauseDropTime();
       else resumeDropTime();
-    } else handleOnInput({ action });
+    } else if (action === Action.Quit) setIsGameOver(true);
+    else handleOnInput({ action });
   };
 
   const handleOnInput = ({ action }) => {
