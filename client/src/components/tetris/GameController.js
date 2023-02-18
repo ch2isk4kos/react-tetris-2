@@ -26,9 +26,7 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
     if (action === Action.Pause) {
       if (dropTime) pauseDropTime();
       else resumeDropTime();
-    }
-
-    handleOnInput({ action });
+    } else handleOnInput({ action });
   };
 
   const handleOnInput = ({ action }) => {
