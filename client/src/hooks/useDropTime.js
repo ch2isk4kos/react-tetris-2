@@ -1,11 +1,11 @@
 import { useState, useCallback, useEffect } from "react";
 
-const DefaultDropTime = 1000;
-const MinimumDropTime = 100;
-const Speed = 50;
+const DEFAULT = 1000;
+const MINIMUM = 100;
+const SPEED = 50;
 
 export const useDropTime = ({ stats }) => {
-  const [dropTime, setDropTime] = useState(DefaultDropTime);
+  const [dropTime, setDropTime] = useState(DEFAULT);
   const [prevDropTime, setPrevDropTime] = useState(); // allows for pause
 
   const pauseDropTime = useCallback(() => {
@@ -20,8 +20,8 @@ export const useDropTime = ({ stats }) => {
   }, [prevDropTime]);
 
   useEffect(() => {
-    const level = Speed * (stats.level - 1);
-    const updateDropTime = Math.max(DefaultDropTime - level, MinimumDropTime);
+    const level = SPEED * (stats.level - 1);
+    const updateDropTime = Math.max(DEFAULT - level, MINIMUM);
     setDropTime(updateDropTime);
   }, [stats.level, setDropTime]);
 
