@@ -24,21 +24,6 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
     console.log("onKeyDown: action", action);
     console.log("onKeyDown: dropTime", dropTime);
 
-    // if (action === Action.Pause) {
-    //   if (dropTime) {
-    //     console.log("GAME PAUSED!");
-    //     pauseDropTime();
-    //   } else {
-    //     console.log("GAME UNPAUSED!");
-    //     resumeDropTime();
-    //   }
-    // } else if (action === Action.Quit) {
-    //   console.log("GAME OVER!");
-    //   setIsGameOver(true);
-    // } else {
-    //   handleOnInput({ action });
-    // }
-
     // handle on action
     if (action === Action.Pause) {
       if (dropTime) pauseDropTime();
