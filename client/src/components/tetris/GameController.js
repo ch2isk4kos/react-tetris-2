@@ -10,7 +10,7 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
 
   useInterval(() => {
     handleOnInput({ action: Action.SlowDrop });
-  }, 1000);
+  }, dropTime);
 
   const onKeyUp = ({ code }) => {
     console.log("onKeyUp: code", code);
@@ -22,14 +22,29 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
     console.log("onKeyDown: code", code);
     const action = actionForKey(code);
     console.log("onKeyDown: action", action);
+    console.log("onKeyDown: dropTime", dropTime);
+
+    // if (action === Action.Pause) {
+    //   if (dropTime) {
+    //     console.log("GAME PAUSED!");
+    //     pauseDropTime();
+    //   } else {
+    //     console.log("GAME UNPAUSED!");
+    //     resumeDropTime();
+    //   }
+    // } else if (action === Action.Quit) {
+    //   console.log("GAME OVER!");
+    //   setIsGameOver(true);
+    // } else {
+    //   handleOnInput({ action });
+    // }
 
     // handle on action
     if (action === Action.Pause) {
       if (dropTime) pauseDropTime();
       else resumeDropTime();
-    } else if (action === Action.Quit) {
-      setIsGameOver(true);
-    } else handleOnInput({ action });
+    } else if (action === Action.Quit) setIsGameOver(true);
+    else handleOnInput({ action });
   };
 
   const handleOnInput = ({ action }) => {
