@@ -1,5 +1,9 @@
 import React from "react";
-import { actionForKey, Action } from "../../utilities/input/action";
+import {
+  actionForKey,
+  actionIsDrop,
+  Action,
+} from "../../utilities/input/action";
 import { playerController } from "../../utilities/player";
 import { useDropTime } from "../../hooks/useDropTime";
 import { useInterval } from "../../hooks/useInterval";
@@ -29,7 +33,9 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
       if (dropTime) pauseDropTime();
       else resumeDropTime();
     } else if (action === Action.Quit) setIsGameOver(true);
-    else handleOnInput({ action });
+    else {
+      handleOnInput({ action });
+    }
   };
 
   const handleOnInput = ({ action }) => {
