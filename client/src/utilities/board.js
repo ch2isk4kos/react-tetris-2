@@ -21,6 +21,8 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
     row.map((cell) => (cell.occupied ? cell : { ...defaultCell }))
   );
 
+  // drop position
+
   // update rows
   rows = displayTetromino({
     className,
