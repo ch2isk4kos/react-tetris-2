@@ -25,6 +25,8 @@ const findDropPosition = ({ board, position, shape }) => {
       board,
     });
     const { collided } = result;
+
+    if (collided) break;
   }
 };
 
