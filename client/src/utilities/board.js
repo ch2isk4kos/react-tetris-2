@@ -12,6 +12,8 @@ export const buildBoard = ({ rows, columns }) => {
   };
 };
 
+const findDropPosition = ({ board, position, shape }) => {};
+
 export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
   const { tetromino, position } = player;
   const { className, shape } = tetromino;
