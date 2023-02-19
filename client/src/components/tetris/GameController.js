@@ -34,6 +34,7 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
       else resumeDropTime();
     } else if (action === Action.Quit) setIsGameOver(true);
     else {
+      if (actionIsDrop(action)) resumeDropTime();
       handleOnInput({ action });
     }
   };
