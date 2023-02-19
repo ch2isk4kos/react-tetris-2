@@ -1,5 +1,5 @@
 import { defaultCell } from "./cell";
-import { displayTetromino } from "./tetrominoes";
+import { displayTetromino, moveTetromino } from "./tetrominoes";
 
 export const buildBoard = ({ rows, columns }) => {
   const matrix = Array.from({ length: rows }, () =>
