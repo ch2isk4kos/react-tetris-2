@@ -55,6 +55,7 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
   rows = displayTetromino({
     className: tetromino.className,
     isOccupied: player.collided,
+    // position: dropPosition,
     position,
     rows,
     shape: tetromino.shape,
