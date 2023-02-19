@@ -16,7 +16,9 @@ const findDropPosition = ({ board, position, shape }) => {
   let max = board.size.rows - position.row + 1;
   let row = 0;
 
-  for (let i = 0; i < max; i++) {}
+  for (let i = 0; i < max; i++) {
+    const delta = { row: i, column: 0 };
+  }
 };
 
 export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
