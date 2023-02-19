@@ -20,4 +20,5 @@ export const Key = {
 
 export const actionForKey = (code) => Key[code];
 
-export const actionIsDrop = (action) => {};
+export const actionIsDrop = (action) =>
+  [Action.SlowDrop, Action.FastDrop].includes(action);
