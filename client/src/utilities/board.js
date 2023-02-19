@@ -44,6 +44,11 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
   );
 
   // drop position
+  const dropPosition = findDropPosition({
+    board,
+    position,
+    shape: tetromino.shape,
+  });
 
   // update rows
   rows = displayTetromino({
