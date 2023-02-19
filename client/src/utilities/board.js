@@ -18,6 +18,12 @@ const findDropPosition = ({ board, position, shape }) => {
 
   for (let i = 0; i < max; i++) {
     const delta = { row: i, column: 0 };
+    const result = moveTetromino({
+      delta,
+      position,
+      shape,
+      board,
+    });
   }
 };
 
