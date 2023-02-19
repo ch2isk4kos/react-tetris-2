@@ -27,6 +27,8 @@ const findDropPosition = ({ board, position, shape }) => {
     const { collided } = result;
 
     if (collided) break;
+
+    // if no collision
   }
 };
 
@@ -40,6 +42,11 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
   );
 
   // drop position
+  const dropPosition = findDropPosition({
+    board,
+    position,
+    shape: tetromino.shape,
+  });
 
   // update rows
   rows = displayTetromino({
