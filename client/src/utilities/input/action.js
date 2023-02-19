@@ -20,4 +20,4 @@ export const Key = {
 
 export const actionForKey = (code) => Key[code];
 
-export const actionIsDrop = () => {};
+export const actionIsDrop = (action) => {};
