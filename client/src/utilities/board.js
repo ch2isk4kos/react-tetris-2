@@ -50,6 +50,8 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
     shape: tetromino.shape,
   });
 
+  // place ghost on board
+
   // update rows
   rows = displayTetromino({
     className,
