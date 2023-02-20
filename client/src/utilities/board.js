@@ -50,6 +50,9 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
   });
 
   // place ghost on board
+  const className = `${tetromino.className} ${
+    player.isFastDropping ? "" : "ghost"
+  }`;
 
   // update rows
   rows = displayTetromino({
