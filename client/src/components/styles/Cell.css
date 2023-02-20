@@ -12,7 +12,7 @@
   border-right: 3px solid rgba(0, 0, 0, 0.1);
 }
 
-.shine {
+.tetromino .shine {
   position: absolute;
   left: -2px;
   top: -2px;
