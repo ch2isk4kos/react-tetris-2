@@ -49,7 +49,7 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
     shape: tetromino.shape,
   });
 
-  // place ghost on board
+  // place tetromino shape || ghost on board
   const className = `${tetromino.className} ${
     player.isFastDropping ? "" : "ghost"
   }`;
