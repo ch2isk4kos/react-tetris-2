@@ -56,7 +56,7 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
 
   // update rows
   rows = displayTetromino({
-    className: tetromino.className,
+    className,
     isOccupied: player.isFastDropping,
     position: dropPosition,
     rows,
