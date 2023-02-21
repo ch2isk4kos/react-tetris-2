@@ -3,7 +3,9 @@ import { buildStats } from "../utilities/stats";
 
 export const useStats = () => {
   const [stats, setGameStats] = useState(buildStats());
-  const addLinesCleared = useCallback((lines) => {}, []);
+  const addLinesCleared = useCallback((lines) => {
+    // update game stats anytime lines have cleared
+  }, []);
 
   return [stats, addLinesCleared];
 };
