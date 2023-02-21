@@ -13,6 +13,12 @@ export const useStats = () => {
         completedLines >= linesPerLevel ? previous.level + 1 : previous.level;
       const linesComplete = completedLines % linesPerLevel;
       // output updated game stats
+      return {
+        level,
+        score,
+        linesPerLevel,
+        linesComplete,
+      };
     }, []);
   }, []);
 
