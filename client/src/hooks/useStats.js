@@ -5,7 +5,9 @@ export const useStats = () => {
   const [stats, setGameStats] = useState(buildStats());
   const addLinesCleared = useCallback((lines) => {
     // update game stats anytime lines have cleared
-    setGameStats((previous) => {}, []);
+    setGameStats((previous) => {
+      const points = previous.points + lines + 100;
+    }, []);
   }, []);
 
   return [stats, addLinesCleared];
