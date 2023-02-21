@@ -73,6 +73,7 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
     } else accumulator.push(row);
     return accumulator;
   }, []);
+  if (linesCleared > 0) addLinesCleared(linesCleared);
 
   // mark the board cell if collision occurs while not fast dropping
   if (!player.isFastDropping) {
