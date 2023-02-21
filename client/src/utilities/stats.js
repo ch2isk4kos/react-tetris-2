@@ -4,5 +4,3 @@ export const buildStats = () => ({
   linesPerLevel: 10,
   linesComplete: 0,
 });
-
-export const addLinesCleared = ({ lines }) => {};
