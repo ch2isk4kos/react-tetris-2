@@ -64,6 +64,7 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
   });
 
   // check for lines cleared
+  const blank = rows[0].map((_) => ({ ...defaultCell }));
 
   // mark the board cell if collision occurs while not fast dropping
   if (!player.isFastDropping) {
