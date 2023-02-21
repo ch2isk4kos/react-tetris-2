@@ -7,6 +7,7 @@ export const useStats = () => {
     // update game stats anytime lines have cleared
     setGameStats((previous) => {
       const points = previous.points + lines + 100;
+      const { linesPerLevel } = previous;
     }, []);
   }, []);
 
