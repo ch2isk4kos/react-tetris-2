@@ -63,6 +63,8 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
     shape: tetromino.shape,
   });
 
+  // check for lines cleared
+
   // mark the board cell if collision occurs while not fast dropping
   if (!player.isFastDropping) {
     rows = displayTetromino({
