@@ -11,6 +11,7 @@ export const useStats = () => {
       const linesCompleted = previous.linesComplete + lines;
       const level =
         linesCompleted >= linesPerLevel ? previous.level + 1 : previous.level;
+      const completedLines = linesCompleted % linesPerLevel;
     }, []);
   }, []);
 
