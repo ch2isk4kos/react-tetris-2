@@ -3,7 +3,7 @@ import { buildStats } from "../utilities/stats";
 
 export const useStats = () => {
   const [stats, setGameStats] = useState(buildStats());
-  const addLinesCleared = useCallback(() => {}, []);
+  const addLinesCleared = useCallback((lines) => {}, []);
 
   return [stats, addLinesCleared];
 };
