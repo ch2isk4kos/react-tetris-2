@@ -70,7 +70,7 @@ export const nextBoard = ({ board, player, resetPlayer, addLinesCleared }) => {
     if (row.every((column) => column.occupied)) {
       linesCleared++;
       accumulator.unshift([...blank]);
-    }
+    } else accumulator.push(row);
     return accumulator;
   }, []);
 
