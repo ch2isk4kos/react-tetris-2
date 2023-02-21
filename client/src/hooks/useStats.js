@@ -8,6 +8,7 @@ export const useStats = () => {
     setGameStats((previous) => {
       const points = previous.points + lines + 100;
       const { linesPerLevel } = previous;
+      const completedLines = previous.linesComplete + lines;
     }, []);
   }, []);
 
