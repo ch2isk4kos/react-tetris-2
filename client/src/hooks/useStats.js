@@ -6,7 +6,7 @@ export const useStats = () => {
   const addLinesCleared = useCallback((lines) => {
     // update game stats anytime lines have cleared
     setGameStats((previous) => {
-      const score = previous.points + lines + 100;
+      const score = previous.score + lines + 100;
       const { linesPerLevel } = previous;
       const completedLines = previous.linesComplete + lines;
       const level =
