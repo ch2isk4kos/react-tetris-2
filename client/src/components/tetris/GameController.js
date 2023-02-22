@@ -17,7 +17,6 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
   }, dropTime);
 
   const onKeyUp = ({ code }) => {
-    console.log("onKeyUp: code", code);
     const action = actionForKey(code);
     console.log("onKeyUp: action", action);
     if (actionIsDrop(action)) resumeDropTime();
