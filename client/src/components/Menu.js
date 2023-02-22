@@ -4,9 +4,16 @@ import "./styles/Menu.css";
 const Menu = ({ start }) => {
   return (
     <div className="Menu">
-      <button className="button" onClick={start}>
-        Start Game
-      </button>
+      <div className="column col-1">Column 1</div>
+      <div className="column col-2">
+        <div className="play-button">
+          <h1 className="title">TETRIS</h1>
+          <button className="button" onClick={start}>
+            Play
+          </button>
+        </div>
+      </div>
+      <div className="column col-3">Column 3</div>
     </div>
   );
 };
