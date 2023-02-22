@@ -11,6 +11,10 @@
   width: 33%;
 }
 
+.title {
+  margin: 2em;
+}
+
 .button {
   padding: 2em 4em;
   border: none;
