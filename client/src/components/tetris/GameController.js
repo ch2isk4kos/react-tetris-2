@@ -25,7 +25,6 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
   const onKeyDown = ({ code }) => {
     console.log("onKeyDown: code", code);
     const action = actionForKey(code);
-    console.log("onKeyDown: dropTime", dropTime);
 
     // handle on action
     if (action === Action.Pause) {
