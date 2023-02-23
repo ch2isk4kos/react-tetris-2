@@ -5,6 +5,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Game rows={20} columns={10} />
     </div>
   );
