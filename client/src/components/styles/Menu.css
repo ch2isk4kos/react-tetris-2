@@ -25,8 +25,7 @@
   border: 2px solid red;
 }
 
-.col-2,
-.title {
+.col-2 .title {
   margin: 2em;
 }
 
