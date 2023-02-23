@@ -15,7 +15,10 @@ const Menu = ({ start }) => {
           </button>
         </div>
       </div>
-      <div className="column col-3">Column 3</div>
+      <div className="column col-3">
+        <div className="row-1"></div>
+        <div className="row-2"></div>
+      </div>
     </div>
   );
 };
