@@ -16,9 +16,22 @@
 .col-3 {
   height: 50vh;
   margin: 1em;
-  border: 2px solid blue;
+  border: 5px solid blue;
 }
 
+.col-1 {
+  flex-direction: column;
+}
+
+.col-1,
+img {
+}
+
+img {
+  border: 2px solid red;
+}
+
+.col-2,
 .title {
   margin: 2em;
 }
