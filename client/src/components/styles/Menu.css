@@ -19,11 +19,12 @@
   border: 5px solid blue;
 }
 
-.col-1 {
+/* .col-1 {
   flex-direction: column;
-}
+} */
 
 .col-1 img {
+  background-size: cover;
   border: 2px solid red;
 }
 
