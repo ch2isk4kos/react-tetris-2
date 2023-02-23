@@ -23,11 +23,7 @@
   flex-direction: column;
 }
 
-.col-1,
-img {
-}
-
-img {
+.col-1 img {
   border: 2px solid red;
 }
 
