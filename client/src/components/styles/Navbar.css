@@ -15,3 +15,8 @@
 .nav-item a {
   text-decoration: none;
 }
+
+.nav-item a:hover {
+  cursor: pointer;
+  color: crimson;
+}
