@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <ul className="Navbar">
-      <li className="nav-item">
+      <li id="logo" className="nav-item">
         <a href="">Logo</a>
       </li>
       <li className="nav-item">
