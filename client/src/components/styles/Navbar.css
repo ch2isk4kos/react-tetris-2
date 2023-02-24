@@ -11,3 +11,7 @@
 .nav-item {
   display: inline;
 }
+
+.nav-item a {
+  text-decoration: none;
+}
