@@ -2,16 +2,22 @@ const Navbar = () => {
   return (
     <ul className="Navbar">
       <li id="logo" className="nav-item">
-        <a href="">Logo</a>
+        <a href="#">Logo</a>
       </li>
       <li className="nav-item">
-        <a href="">Something</a>
+        <a href="#">Something</a>
       </li>
       <li className="nav-item">
-        <a href="">About</a>
+        <a href="#">About</a>
       </li>
       <li className="nav-item">
-        <a href="">Contact</a>
+        <a
+          href="https://twitter.com/ch2isk4kos"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Contact
+        </a>
       </li>
     </ul>
   );
