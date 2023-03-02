@@ -7,7 +7,13 @@ const Navbar = () => {
         <p>Logo</p>
       </li>
       <li className="nav-item">
-        <a href="#">Something</a>
+        <a
+          href="https://github.com/ch2isk4kos"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Something
+        </a>
       </li>
       <li className="nav-item">
         <a href="#">About</a>
