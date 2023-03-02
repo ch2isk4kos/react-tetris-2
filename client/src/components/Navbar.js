@@ -13,16 +13,16 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Something
+            GitHub
           </a>
         </li>
         <li className="nav-item">
           <a
-            href="https://medium.com/chriskakos"
+            href="https://chriskakos.medium.com/"
             target="_blank"
             rel="noreferrer"
           >
-            About
+            Medium
           </a>
         </li>
         <li className="nav-item">
@@ -31,7 +31,7 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Contact
+            Twitter
           </a>
         </li>
       </div>
