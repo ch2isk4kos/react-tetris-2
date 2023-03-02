@@ -9,19 +9,19 @@
 }
 
 #logo {
+  margin-left: 20px;
   float: left;
 }
 
 .nav-item {
   display: inline;
   float: right;
+  margin-top: 25px;
   border: 2px solid gold;
 }
 
 .nav-item a {
   padding: 10px 12px;
-  align-items: center;
-  text-align: center;
   text-decoration: none;
 }
 
@@ -29,3 +29,5 @@
   cursor: pointer;
   color: crimson;
 }
+
+/* https://www.w3schools.com/Css/css_navbar_horizontal.asp */
