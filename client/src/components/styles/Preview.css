@@ -2,6 +2,7 @@
   position: absolute;
   top: 0;
   left: 72.2vw;
+  margin-top: 20px;
   background: rgba(0, 0, 0, 0.1);
   /* border: 10px solid rgba(0, 0, 0, 0); */
   border: 10px solid red;
