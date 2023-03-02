@@ -17,7 +17,13 @@ const Navbar = () => {
           </a>
         </li>
         <li className="nav-item">
-          <a href="#">About</a>
+          <a
+            href="https://medium.com/chriskakos"
+            target="_blank"
+            rel="noreferrer"
+          >
+            About
+          </a>
         </li>
         <li className="nav-item">
           <a
