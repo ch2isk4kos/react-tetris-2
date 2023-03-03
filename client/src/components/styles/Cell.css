@@ -34,6 +34,22 @@
   opacity: 0;
 }
 
+/* 
+I: turquoise
+
+J: blue
+
+L: orange
+
+O: yellow
+
+S: green
+
+T: purple
+
+Z: red
+*/
+
 .tetromino__i {
   background-color: rgba(80, 227, 250, 1);
 }
