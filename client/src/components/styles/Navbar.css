@@ -20,7 +20,7 @@
 .nav-item {
   display: inline;
   float: right;
-  border: 2px solid gold;
+  /* border: 2px solid gold; */
 }
 
 .nav-links a img {
