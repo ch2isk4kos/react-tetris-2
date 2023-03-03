@@ -31,7 +31,6 @@
 
 .nav-item a:hover {
   cursor: pointer;
-  color: crimson;
+  filter: hue-rotate(180);
+  -webkit-filter: hue-rotate(180deg);
 }
-
-/* https://www.w3schools.com/Css/css_navbar_horizontal.asp */
