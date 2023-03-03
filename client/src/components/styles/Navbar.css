@@ -31,6 +31,7 @@
 
 .nav-item a:hover {
   cursor: pointer;
-  filter: hue-rotate(180);
-  -webkit-filter: hue-rotate(180deg);
+  /* fill: invert; */
+  /* filter: hue-rotate(180);
+  -webkit-filter: hue-rotate(180deg); */
 }
