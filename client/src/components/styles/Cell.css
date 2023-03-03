@@ -39,25 +39,30 @@
 }
 
 .tetromino__j {
-  background-color: rgba(36, 95, 223, 1);
+  /* background-color: rgba(36, 95, 223, 1); */
+  background-color: rgba(0, 45, 255, 1);
 }
 
 .tetromino__l {
-  background-color: rgba(223, 173, 36, 1);
+  /* background-color: rgba(223, 173, 36, 1); */
+  background-color: rgba(0, 45, 255, 1);
 }
 
 .tetromino__o {
-  background-color: rgba(223, 217, 36, 1);
+  background-color: rgba(255, 229, 66, 1);
 }
 
 .tetromino__s {
-  background-color: rgba(48, 211, 56, 1);
+  /* background-color: rgba(48, 211, 56, 1); */
+  background-color: rgba(0, 229, 66, 1);
 }
 
 .tetromino__t {
-  background-color: rgba(132, 61, 198, 1);
+  /* background-color: rgba(132, 61, 198, 1); */
+  background-color: rgba(122, 0, 255, 1);
 }
 
 .tetromino__z {
-  background-color: rgba(240, 80, 195, 1);
+  /* background-color: rgba(240, 80, 195, 1); */
+  background-color: rgba(221, 0, 0, 0.98);
 }
