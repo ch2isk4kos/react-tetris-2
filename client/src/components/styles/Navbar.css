@@ -20,20 +20,16 @@
 .nav-item {
   display: inline;
   float: right;
-  margin-top: 5px;
   border: 2px solid gold;
 }
 
-.nav-item a {
-  padding: 10px 12px;
+.nav-links a img {
+  margin: 12px 10px 0 12px;
   text-decoration: none;
 }
 
-.nav-item a:hover {
-  cursor: pointer;
-  /* fill: invert; */
-  /* filter: hue-rotate(180);
-  -webkit-filter: hue-rotate(180deg); */
+.nav-links a img:hover {
+  background-color: red;
 }
 
 /* https://www.geeksforgeeks.org/how-to-create-icon-hover-effect-using-css/ */
