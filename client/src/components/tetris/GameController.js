@@ -22,7 +22,6 @@ const GameController = ({ board, stats, player, setPlayer, setIsGameOver }) => {
   };
 
   const onKeyDown = ({ code }) => {
-    console.log("onKeyDown: code", code);
     const action = actionForKey(code);
 
     // handle on action
