@@ -13,7 +13,12 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
+            <img
+              src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-512.png"
+              alt="github logo"
+              width="50"
+              height="50"
+            ></img>
           </a>
         </li>
         <li className="nav-item">
@@ -22,7 +27,12 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Medium
+            <img
+              src="https://cdn3.iconfinder.com/data/icons/social-media-2285/1151/Medium_logo_-_black-512.png"
+              alt="medium logo"
+              width="50"
+              height="50"
+            ></img>
           </a>
         </li>
         <li className="nav-item">
@@ -31,7 +41,12 @@ const Navbar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Twitter
+            <img
+              src="https://cdn3.iconfinder.com/data/icons/picons-social/57/03-twitter-512.png"
+              alt="twitter logo"
+              width="50"
+              height="50"
+            ></img>
           </a>
         </li>
       </div>
