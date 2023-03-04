@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 
 * {
   box-sizing: border-box;
@@ -10,6 +12,8 @@
   height: 100vh;
   padding: 6px;
   text-align: center;
-  font-family: "Climate Crisis", sans-serif;
+  /* font-family: "Climate Crisis", sans-serif; */
+  font-family: "Kanit", sans-serif;
+  /* font-family: "Heebo", sans-serif; */
   border: 2px solid blue;
 }
