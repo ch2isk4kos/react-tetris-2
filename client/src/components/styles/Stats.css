@@ -13,13 +13,6 @@
   text-align: right;
 }
 
-/* .Stats__right {
-  right: 0;
-  bottom: 0;
-  margin: 0 0 25rem 0;
-  text-align: left;
-} */
-
 .Stats .value {
   font-size: 2.8rem;
   margin-bottom: 0.5em;
