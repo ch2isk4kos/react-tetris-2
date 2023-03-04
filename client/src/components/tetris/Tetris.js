@@ -1,7 +1,8 @@
 import Board from "./Board";
+import GameController from "./GameController";
+import Options from "./Options";
 import Previews from "./Previews";
 import Stats from "./Stats";
-import GameController from "./GameController";
 import { useBoard } from "../../hooks/useBoard";
 import { useStats } from "../../hooks/useStats";
 import { usePlayer } from "../../hooks/usePlayer";
@@ -23,6 +24,7 @@ const Tetris = ({ rows, columns, setIsGameOver }) => {
       <Board board={board} />
       <Stats stats={stats} />
       <Previews tetrominoes={player.tetrominoes} />
+      <Options />
       <GameController
         board={board}
         stats={stats}
