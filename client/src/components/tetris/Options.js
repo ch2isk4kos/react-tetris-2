@@ -5,7 +5,7 @@ const Options = () => {
   return (
     <ul className="Options">
       <li>
-        <h2>Options</h2>
+        <h2 className="options-title">Options</h2>
       </li>
       <li className="keypress">P</li>
       <li className="keypress">Q</li>
