@@ -11,17 +11,23 @@
 }
 
 .options-title {
-  font-size: 2em;
+  font-size: 2.5em;
+}
+
+.horizon {
+  width: 10em;
+  border: 2px gray solid;
 }
 
 .keypress {
+  /* margin-top: 10px; */
   font-size: 2em;
 }
 
-/* .keypress-actions {
-  font-size: 0.25em;
-} */
-
-span {
-  font-size: 0.75em;
+.keypress-action {
+  font-size: 1.5em;
 }
+
+/* span {
+  font-size: 0.75em;
+} */
