@@ -4,12 +4,9 @@ import "../styles/Options.css";
 const Options = () => {
   return (
     <ul className="Options">
-      <li>
-        <h2 className="options-title">Options</h2>
-      </li>
       <li className="option">
         <span className="keypress">P</span>{" "}
-        <span className="keypress-action">:pause</span>
+        <span className="keypress-action">[ :pause :resume ]</span>
       </li>
       <li className="option">
         <span className="keypress">Q</span>{" "}
