@@ -10,23 +10,23 @@ const Options = () => {
       </li>
       <li className="option">
         <span className="keypress">P</span>{" "}
-        <span className="keypress-action">pause</span>
+        <span className="keypress-action">:pause</span>
       </li>
       <li className="option">
         <span className="keypress">Q</span>{" "}
-        <span className="keypress-action">quit</span>
+        <span className="keypress-action">:quit</span>
       </li>
       <li className="option">
         <span className="keypress">Up Arrow</span>{" "}
-        <span className="keypress-action">rotate</span>
+        <span className="keypress-action">:rotate</span>
       </li>
       <li className="option">
         <span className="keypress">Down Arrow</span>{" "}
-        <span className="keypress-action">slow drop</span>
+        <span className="keypress-action">:slow drop</span>
       </li>
       <li className="option">
         <span className="keypress">Spacebar</span>{" "}
-        <span className="keypress-action">fast drop</span>
+        <span className="keypress-action">:fast drop</span>
       </li>
     </ul>
   );
