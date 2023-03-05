@@ -15,7 +15,9 @@
 }
 
 .keypress {
+  font-size: 2em;
 }
 
-.keypress-action {
-}
+/* .keypress-actions {
+  font-size: 0.25em;
+} */
