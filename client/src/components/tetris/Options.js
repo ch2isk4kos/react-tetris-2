@@ -6,7 +6,6 @@ const Options = () => {
     <ul className="Options">
       <li>
         <h2 className="options-title">Options</h2>
-        <hr className="horizon"></hr>
       </li>
       <li className="option">
         <span className="keypress">P</span>{" "}
