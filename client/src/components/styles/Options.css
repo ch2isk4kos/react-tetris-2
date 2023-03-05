@@ -3,7 +3,7 @@
   right: 0;
   bottom: 0;
   width: 25vw;
-  margin: 0 0 10rem 0;
+  margin: 0 0 20rem 0;
   list-style-type: none;
   text-align: left;
   /* color: rgba(255, 255, 255, 0.5); */
@@ -11,7 +11,7 @@
 }
 
 .options-title {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .horizon {
@@ -20,14 +20,14 @@
 }
 
 .option {
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 .keypress {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .keypress-action {
-  font-size: 1.5em;
+  font-size: 1em;
   margin-left: 10px;
 }
