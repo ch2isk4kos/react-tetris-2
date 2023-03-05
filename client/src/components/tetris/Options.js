@@ -6,21 +6,27 @@ const Options = () => {
     <ul className="Options">
       <li>
         <h2 className="options-title">Options</h2>
+        <hr className="horizon"></hr>
       </li>
-      <li className="keypress">
-        P <span className="keypress-action">pause</span>
+      <li className="option">
+        <span className="keypress">P</span>{" "}
+        <span className="keypress-action">pause</span>
       </li>
-      <li className="keypress">
-        Q <span className="keypress-action">quit</span>
+      <li className="option">
+        <span className="keypress">Q</span>{" "}
+        <span className="keypress-action">quit</span>
       </li>
-      <li className="keypress">
-        Up Arrow <span className="keypress-action">rotate</span>
+      <li className="option">
+        <span className="keypress">Up Arrow</span>{" "}
+        <span className="keypress-action">rotate</span>
       </li>
-      <li className="keypress">
-        Down Arrow <span className="keypress-action">slow drop</span>
+      <li className="option">
+        <span className="keypress">Down Arrow</span>{" "}
+        <span className="keypress-action">slow drop</span>
       </li>
-      <li className="keypress">
-        Spacebar <span className="keypress-action">fast drop</span>
+      <li className="option">
+        <span className="keypress">Spacebar</span>{" "}
+        <span className="keypress-action">fast drop</span>
       </li>
     </ul>
   );
