@@ -32,7 +32,13 @@
   background-color: red;
 }
 
+#logo2 {
+  float: right;
+  margin-top: 25px;
+  /* border: 2px solid gold; */
+}
+
 /* RESOURCES */
 /* https://blog.fontawesome.com/webfont-vs-svg/ */
 /* https://rigorousthemes.com/blog/best-iconfinder-alternatives/ */
-/* https://www.geeksforgeeks.org/how-to-create-icon-hover-effect-using-css/ */
+/* https://www.geeksforgeeks.org/how-to-create-icon-hover-effect-using-css/ */ ;
