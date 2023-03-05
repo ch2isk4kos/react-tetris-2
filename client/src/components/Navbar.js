@@ -37,6 +37,9 @@ const Navbar = () => {
             <img src={twitter} alt="twitter logo" width="50" height="50"></img>
           </a>
         </li>
+        <li id="logo2" className="nav-item">
+          <p>Logo 2</p>
+        </li>
       </div>
     </ul>
   );
