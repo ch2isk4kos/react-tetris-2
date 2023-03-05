@@ -19,7 +19,7 @@
 
 .nav-item {
   display: inline;
-  float: right;
+  /* float: right; */
   /* border: 2px solid gold; */
 }
 
