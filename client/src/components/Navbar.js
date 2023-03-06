@@ -39,7 +39,7 @@ const Navbar = () => {
           </a>
         </li>
         <li id="hamburger" className="nav-item">
-          <p>Logo 2</p>
+          <img src={hamburger} alt="twitter logo" width="50" height="50"></img>
         </li>
       </div>
     </ul>
