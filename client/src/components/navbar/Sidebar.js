@@ -1,6 +1,10 @@
 import React from "react";
 
 const Sidebar = () => {
+  const handleOnOpen = () => {
+    console.log("sidebar click");
+  };
+
   return (
     <div className="Sidebar">
       <h1>Sidebar</h1>
