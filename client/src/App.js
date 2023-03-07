@@ -1,5 +1,5 @@
 import Game from "./components/Game";
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./components/Navbar";
 import "./App.css";
 
 function App() {
