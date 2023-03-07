@@ -1,6 +1,3 @@
-import React, { useState } from "react";
-import Button from "react-bootstrap/Button";
-import Offcanvas from "react-bootstrap/Offcanvas";
 import gitHub from "../assets/images/icons/github_icon.png";
 import hamburger from "../assets/images/icons/hamburger_icon.png";
 import medium from "../assets/images/icons/medium_icon.png";
@@ -8,11 +5,6 @@ import twitter from "../assets/images/icons/twitter_icon.png";
 import "./styles/Navbar.css";
 
 const Navbar = () => {
-  const [show, setShow] = useState(false);
-
-  const handleOnShow = () => setShow(true);
-  const handleOnClose = () => setShow(false);
-
   return (
     <ul className="Navbar">
       <li id="logo" className="nav-item">
@@ -46,9 +38,9 @@ const Navbar = () => {
             <img src={twitter} alt="twitter logo" width="50" height="50"></img>
           </a>
         </li>
-        <Button varient="primary" id="hamburger" className="nav-item">
+        <li id="hamburger" className="nav-item">
           <img src={hamburger} alt="twitter logo" width="50" height="50"></img>
-        </Button>
+        </li>
       </div>
     </ul>
   );

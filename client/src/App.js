@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Game from "./components/Game";
 import Navbar from "./components/Navbar";
 import "./App.css";
