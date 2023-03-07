@@ -1,3 +1,6 @@
+import React, { useState } from "react";
+import Button from "react-bootstrap/Button";
+import Offcanvas from "react-bootstrap/Offcanvas";
 import gitHub from "../assets/images/icons/github_icon.png";
 import hamburger from "../assets/images/icons/hamburger_icon.png";
 import medium from "../assets/images/icons/medium_icon.png";
@@ -38,9 +41,9 @@ const Navbar = () => {
             <img src={twitter} alt="twitter logo" width="50" height="50"></img>
           </a>
         </li>
-        <li id="hamburger" className="nav-item">
+        <Button varient="primary" id="hamburger" className="nav-item">
           <img src={hamburger} alt="twitter logo" width="50" height="50"></img>
-        </li>
+        </Button>
       </div>
     </ul>
   );
