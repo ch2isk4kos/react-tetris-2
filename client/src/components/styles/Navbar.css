@@ -35,6 +35,8 @@
 #hamburger {
   float: right;
   margin-top: 10px;
+  border: none;
+  background-color: #fff;
   /* border: 2px solid gold; */
 }
 
