@@ -50,18 +50,15 @@ Z: red
 
 .tetromino__i {
   /* background-color: rgba(80, 227, 250, 1); */
-  /* background-color: rgba(29, 163, 255, 1); */
-  /* background-color: rgba(0, 160, 255, 1); */
-  /* background-color: rgba(50, 120, 235, 1); */
-  /* background-color: rgba(80, 160, 255, 1); */
-  background-color: #c6d8ff;
+  /* background-color: rgba(221, 253, 253, 1); */
+  background-color: rgba(0, 190, 255, 1);
 }
 
 .tetromino__j {
   /* background-color: rgba(36, 95, 223, 1); */
   /* background-color: rgba(0, 45, 255, 1); */
-  /* background-color: rgba(0, 77, 255, 1); */
-  background-color: #0075f2;
+  background-color: rgba(0, 77, 255, 1);
+  /* background-color: #0075f2; */
 }
 
 .tetromino__l {
