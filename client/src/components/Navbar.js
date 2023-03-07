@@ -8,6 +8,11 @@ import twitter from "../assets/images/icons/twitter_icon.png";
 import "./styles/Navbar.css";
 
 const Navbar = () => {
+  const [show, setShow] = useState(false);
+
+  const handleOnShow = () => setShow(true);
+  const handleOnClose = () => setShow(false);
+
   return (
     <ul className="Navbar">
       <li id="logo" className="nav-item">
