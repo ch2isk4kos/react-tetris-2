@@ -29,7 +29,9 @@ const Tetris = ({ rows, columns, setIsGameOver }) => {
       <div className="TypeWriterEffect">
         <Typewriter
           options={{
-            strings: ["built by Chris Kakos"],
+            strings: [
+              "built by <strong><span style=color:red>Chris Kakos</span></strong>",
+            ],
             autoStart: true,
             pauseFor: 50000,
             loop: true,
