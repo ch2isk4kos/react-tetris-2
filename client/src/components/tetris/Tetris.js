@@ -30,7 +30,8 @@ const Tetris = ({ rows, columns, setIsGameOver }) => {
         <Typewriter
           options={{
             strings: [
-              "built by <strong><span style=color:red>Chris Kakos</span></strong>",
+              // "built by <strong><span style=color:#200040;>Chris Kakos</span></strong>",
+              "built by <strong><span style=color:#0014FF;>Chris Kakos</span></strong>",
             ],
             autoStart: true,
             pauseFor: 50000,
