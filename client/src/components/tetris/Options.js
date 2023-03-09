@@ -6,7 +6,7 @@ const Options = () => {
     <ul className="Options">
       <li>
         <span className="keypress">P</span>{" "}
-        <span className="keypress-action">[ :pause :resume ]</span>
+        <span className="keypress-action">:pause :resume</span>
       </li>
       <li>
         <span className="keypress">Q</span>{" "}
