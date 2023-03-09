@@ -2,6 +2,7 @@ import Board from "./Board";
 import GameController from "./GameController";
 import Options from "./Options";
 import Previews from "./Previews";
+import SocialMediaIcons from "./SocialMediaIcons";
 import Stats from "./Stats";
 import { useBoard } from "../../hooks/useBoard";
 import { useStats } from "../../hooks/useStats";
@@ -23,6 +24,7 @@ const Tetris = ({ rows, columns, setIsGameOver }) => {
   return (
     <div className="Tetris">
       <Stats stats={stats} />
+      <SocialMediaIcons />
       <Board board={board} />
       <Previews tetrominoes={player.tetrominoes} />
       <Options />

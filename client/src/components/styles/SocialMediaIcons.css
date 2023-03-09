@@ -1,0 +1,22 @@
+.SocialMediaIcons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  bottom: 0;
+  margin-left: 16rem;
+  /* width: 25vw; */
+}
+
+.icon {
+  display: inline;
+}
+
+.icon-img {
+  margin: 2rem 1.5rem 0.5rem 1.5rem;
+  text-decoration: none;
+}
+
+.icon-img:hover {
+  filter: hue-rotate(90deg);
+}
