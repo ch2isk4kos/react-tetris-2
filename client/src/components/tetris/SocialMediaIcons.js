@@ -1,58 +1,43 @@
 import React from "react";
-import gitHub from "../../assets/images/icons/github_icon.png";
-import medium from "../../assets/images/icons/medium_icon.png";
-import twitter from "../../assets/images/icons/twitter_icon.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faTwitter,
+  faGithub,
+  faMedium,
+} from "@fortawesome/free-brands-svg-icons";
 import "../styles/SocialMediaIcons.css";
 
 const SocialMediaIcons = () => {
+  const twitter = <FontAwesomeIcon icon={faTwitter} />;
+  const gitHub = <FontAwesomeIcon icon={faGithub} />;
+  const medium = <FontAwesomeIcon icon={faMedium} />;
   return (
-    <ul className="SocialMediaIcons">
-      <li className="icon">
-        <a
-          href="https://github.com/ch2isk4kos"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className="icon-img"
-            src={gitHub}
-            alt="github logo"
-            width="50"
-            height="50"
-          ></img>
-        </a>
-      </li>
-      <li className="icon">
-        <a
-          href="https://chriskakos.medium.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className="icon-img"
-            src={medium}
-            alt="medium logo"
-            width="50"
-            height="50"
-          ></img>
-        </a>
-      </li>
-      <li className="icon">
-        <a
-          href="https://twitter.com/ch2isk4kos"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className="icon-img"
-            src={twitter}
-            alt="twitter logo"
-            width="50"
-            height="50"
-          ></img>
-        </a>
-      </li>
-    </ul>
+    <div className="SocialMediaIcons">
+      <a
+        className="icon"
+        href="https://github.com/ch2isk4kos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        {gitHub}
+      </a>
+      <a
+        className="icon"
+        href="https://chriskakos.medium.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        {medium}
+      </a>
+      <a
+        className="icon"
+        href="https://twitter.com/ch2isk4kos"
+        target="_blank"
+        rel="noreferrer"
+      >
+        {twitter}
+      </a>
+    </div>
   );
 };
 
