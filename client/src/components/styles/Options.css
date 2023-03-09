@@ -3,7 +3,7 @@
   right: 0;
   bottom: 0;
   width: 25vw;
-  margin: 0 0 20rem 0;
+  margin: 0 1rem 25rem 0;
   list-style-type: none;
   text-align: left;
   /* color: rgba(255, 255, 255, 0.5); */
@@ -16,5 +16,5 @@
 
 .keypress-action {
   font-size: 1em;
-  margin-left: 10px;
+  margin-left: 0.095rem;
 }
