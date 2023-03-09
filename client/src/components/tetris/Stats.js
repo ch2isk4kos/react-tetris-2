@@ -8,15 +8,15 @@ const Stats = ({ stats }) => {
   return (
     <ul className="Stats">
       <li>
-        <h2 className="stats-title">Level</h2>
+        <h2 className="title">Level</h2>
       </li>
       <li className="value">{level}</li>
       <li>
-        <h2 className="stats-title">Lines</h2>
+        <h2 className="title">Lines</h2>
       </li>
       <li className="value">{lines}</li>
       <li>
-        <h2 className="stats-title">Score</h2>
+        <h2 className="title">Score</h2>
       </li>
       <li className="value">{score}</li>
     </ul>
