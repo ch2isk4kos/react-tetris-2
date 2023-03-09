@@ -4,18 +4,15 @@
   flex-direction: column;
   left: 0;
   bottom: 0;
-  margin-left: 16rem;
+  margin-left: 18rem;
 }
 
 .icon {
   display: inline;
-}
-
-.icon-img {
-  margin: 2.5rem 1.5rem 0.5rem 1.5rem;
+  margin: 2.5rem 1rem 1rem 1.5rem;
   text-decoration: none;
 }
 
-.icon-img:hover {
+.icon:hover {
   filter: hue-rotate(90deg);
 }
