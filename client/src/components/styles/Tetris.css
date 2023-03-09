@@ -9,5 +9,7 @@
   bottom: 0;
   width: 25vw;
   margin: 0 0.5em 0.5em 0;
-  font-size: 2em;
+  font-size: 2em; /* adjust: 1.5em */
 }
+
+/* https://www.npmjs.com/package/typewriter-effect */
