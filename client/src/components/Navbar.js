@@ -11,7 +11,7 @@ const Navbar = () => {
         <p>Logo</p>
       </li>
       <div className="nav-links">
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a
             href="https://github.com/ch2isk4kos"
             target="_blank"
@@ -37,7 +37,7 @@ const Navbar = () => {
           >
             <img src={twitter} alt="twitter logo" width="50" height="50"></img>
           </a>
-        </li>
+        </li> */}
         <li id="hamburger" className="nav-item">
           <img src={hamburger} alt="twitter logo" width="50" height="50"></img>
         </li>
