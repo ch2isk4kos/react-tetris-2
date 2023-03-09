@@ -32,7 +32,7 @@ const Tetris = ({ rows, columns, setIsGameOver }) => {
             strings: [
               // "<span style=color:gray>built by <strong><span style=color:#200078; fontSize:2em>Chris Kakos</span></strong></span>",
               // "<span style=color:gray>built by <strong><span style=color:#20008C; fontSize:2em>Chris Kakos</span></strong></span>",
-              "<span style=color:gray;>built by <strong><span style=color:#2000A0; fontSize:10em;>Chris Kakos</span></strong></span>",
+              "<span style=color:gray;font-size:0.75em;>built by <strong><span style=color:#2000A0;font-size:1.25em;font-weight:lighter;>Chris Kakos</span></strong></span>",
               // "<span style=color:gray>built by <strong><span style=color:#0014FF;>Chris Kakos</span></strong></span>",
             ],
             autoStart: true,
