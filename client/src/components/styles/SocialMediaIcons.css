@@ -11,12 +11,15 @@
   display: inline;
   font-size: 3.5em;
   margin: 0 0 1rem 0;
-  color: rgb(32, 0, 64);
+  /* color: rgb(32, 0, 64); */
+  /* color: rgb(52, 20, 84); */
+  color: gray;
 }
 
 .icon:hover {
   /* color: rgb(184, 118, 249); */
-  color: rgb(140, 93, 187);
+  /* color: rgb(140, 93, 187); */
+  color: rgb(52, 20, 84);
 }
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function */
