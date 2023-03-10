@@ -70,16 +70,16 @@ Z: red
 }
 
 .tetromino__o {
-  /* background-color: rgba(255, 229, 66, 1); */
+  background-color: rgba(255, 229, 66, 1);
   /* background-color: rgba(255, 230, 25, 1); */
-  background-color: rgba(255, 200, 30, 1);
+  /* background-color: rgba(255, 200, 30, 1); */
   /* background-color: #ffdd4a; */
 }
 
 .tetromino__s {
   /* background-color: rgba(0, 229, 66, 1); */
   /* background-color: rgba(0, 215, 0, 1); */
-  background-color: rgba(0, 155, 10, 1);
+  /* background-color: rgba(0, 155, 10, 1); */
   background-color: #69995d;
 }
 
@@ -94,7 +94,7 @@ Z: red
   /* background-color: rgba(240, 80, 195, 1); */
   /* background-color: rgba(221, 0, 0, 1); */
   /* background-color: rgba(255, 0, 0, 1); */
-  background-color: rgba(255, 0, 55, 1);
+  background-color: rgba(255, 25, 55, 1);
 }
 
 /* https://rgbacolorpicker.com/ */
