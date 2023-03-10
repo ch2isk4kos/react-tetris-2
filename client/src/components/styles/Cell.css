@@ -50,18 +50,21 @@ Z: red
 
 .tetromino__i {
   /* background-color: rgba(80, 227, 250, 1); */
-  background-color: rgba(100, 227, 250, 1);
+  /* background-color: rgba(100, 227, 250, 1); */
   /* background-color: rgba(221, 253, 253, 1); */
   /* background-color: rgba(0, 190, 255, 1); */
   /* background-color: rgba(0, 180, 255, 1); */
+  /* background-color: #54c6eb; */
+  background-color: #57b8ff;
 }
 
 .tetromino__j {
   /* background-color: rgba(36, 95, 223, 1); */
   /* background-color: rgba(0, 45, 255, 1); */
   /* background-color: rgba(0, 120, 255, 1); */
-  background-color: rgba(0, 120, 255, 1);
-  /* background-color: #0075f2; */
+  /* background-color: rgba(0, 120, 255, 1); */
+  background-color: #0075f2;
+  /* background-color: #3d52d5; */
 }
 
 .tetromino__l {
@@ -69,21 +72,32 @@ Z: red
   /* background-color: rgba(255, 117, 0, 1); */
   /* background-color: rgba(245, 90, 10, 1); */
   /* background-color: #fd9e02; */
-  background-color: #fb8500;
+  /* background-color: #fb8500; */
+  /* background-color: #ff6700; */
+  background-color: #fe6847;
 }
 
 .tetromino__o {
-  background-color: rgba(255, 229, 66, 1);
+  /* background-color: rgba(255, 229, 66, 1); */
   /* background-color: rgba(255, 230, 25, 1); */
   /* background-color: rgba(255, 200, 30, 1); */
   /* background-color: #ffdd4a; */
+  /* background-color: #fbd87f; */
+  /* background-color: #eac435; */
+  background-color: #fbb13c;
 }
 
 .tetromino__s {
   /* background-color: rgba(0, 229, 66, 1); */
   /* background-color: rgba(0, 215, 0, 1); */
-  background-color: rgba(10, 155, 90, 1);
+  /* background-color: rgba(10, 155, 90, 1); */
   /* background-color: #69995d; */
+  /* background-color: #57a773; */
+  /* background-color: #06d6a0; */
+  /* background-color: #588157; */
+  /* background-color: #2a9134; */
+  /* background-color: #3fa34d; */
+  background-color: #5bba6f;
 }
 
 .tetromino__t {
@@ -93,14 +107,20 @@ Z: red
   /* background-color: rgba(90, 0, 255, 1); */
   /* background-color: rgba(60, 0, 255, 1); */
   /* background-color: rgb(167, 94, 236); */
-  background-color: rgb(184, 118, 249);
+  /* background-color: rgb(184, 118, 249); */
+  /* background-color: #758bfd; */
+  /* background-color: #5e4ae3; */
+  background-color: #947bd3;
 }
 
 .tetromino__z {
   /* background-color: rgba(240, 80, 195, 1); */
   /* background-color: rgba(221, 0, 0, 1); */
   /* background-color: rgba(255, 0, 0, 1); */
-  background-color: rgba(255, 25, 55, 1);
+  /* background-color: rgba(255, 25, 55, 1); */
+  /* background-color: #fb3640; */
+  /* background-color: #e0777d; */
+  background-color: #8e3b46;
 }
 
 /* https://rgbacolorpicker.com/ */
