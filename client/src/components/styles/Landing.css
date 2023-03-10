@@ -1,0 +1,7 @@
+.Landing {
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  z-index: 100;
+  border: 5px solid green;
+}
