@@ -9,10 +9,11 @@
 
 .icon {
   display: inline;
-  margin: 2.5rem 1rem 1rem 1.5rem;
-  text-decoration: none;
+  font-size: 3.5em;
+  margin: 0 0 1rem 0;
+  color: rgb(32, 0, 64);
 }
 
-.icon:hover {
-  filter: hue-rotate(90deg);
-}
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function */
+/* https://fontawesome.com/v6/docs/web/use-with/react/add-icons */
+/* https://www.codecademy.com/resources/docs/css/filter-functions/hue-rotate */
