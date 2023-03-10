@@ -55,7 +55,8 @@ Z: red
   /* background-color: rgba(0, 190, 255, 1); */
   /* background-color: rgba(0, 180, 255, 1); */
   /* background-color: #54c6eb; */
-  background-color: #57b8ff;
+  /* background-color: #57b8ff; */
+  background-color: #6ccff6;
 }
 
 .tetromino__j {
@@ -63,8 +64,9 @@ Z: red
   /* background-color: rgba(0, 45, 255, 1); */
   /* background-color: rgba(0, 120, 255, 1); */
   /* background-color: rgba(0, 120, 255, 1); */
-  background-color: #0075f2;
   /* background-color: #3d52d5; */
+  /* background-color: #1D3461; Delft Blue */
+  background-color: #0075f2;
 }
 
 .tetromino__l {
@@ -74,17 +76,22 @@ Z: red
   /* background-color: #fd9e02; */
   /* background-color: #fb8500; */
   /* background-color: #ff6700; */
-  background-color: #fe6847;
+  /* background-color: #fe6847; */
+  /* background-color: #f7934c; */
+  /* background-color: #ee8434; */
+  /* background-color: #fc9f5b; */
+  background-color: #fa824c;
 }
 
 .tetromino__o {
   /* background-color: rgba(255, 229, 66, 1); */
   /* background-color: rgba(255, 230, 25, 1); */
   /* background-color: rgba(255, 200, 30, 1); */
-  /* background-color: #ffdd4a; */
-  /* background-color: #fbd87f; */
   /* background-color: #eac435; */
-  background-color: #fbb13c;
+  /* background-color: #fbb13c; */
+  /* background-color: #ffc15e; */
+  /* background-color: #ffdd4a; */
+  background-color: #e9d758;
 }
 
 .tetromino__s {
@@ -97,7 +104,8 @@ Z: red
   /* background-color: #588157; */
   /* background-color: #2a9134; */
   /* background-color: #3fa34d; */
-  background-color: #5bba6f;
+  /* background-color: #5bba6f; */
+  background-color: #33ca7f;
 }
 
 .tetromino__t {
@@ -107,10 +115,12 @@ Z: red
   /* background-color: rgba(90, 0, 255, 1); */
   /* background-color: rgba(60, 0, 255, 1); */
   /* background-color: rgb(167, 94, 236); */
-  /* background-color: rgb(184, 118, 249); */
+  background-color: rgb(184, 118, 249);
   /* background-color: #758bfd; */
   /* background-color: #5e4ae3; */
-  background-color: #947bd3;
+  /* background-color: #6369d1; */
+  /* background-color: #947bd3; */
+  /* background-color: #fbd1a2; */
 }
 
 .tetromino__z {
@@ -118,9 +128,10 @@ Z: red
   /* background-color: rgba(221, 0, 0, 1); */
   /* background-color: rgba(255, 0, 0, 1); */
   /* background-color: rgba(255, 25, 55, 1); */
-  /* background-color: #fb3640; */
   /* background-color: #e0777d; */
-  background-color: #8e3b46;
+  /* background-color: #a30015; Carmine */
+  /* background-color: #fb3640; */
+  background-color: #ea2b1f;
 }
 
 /* https://rgbacolorpicker.com/ */
