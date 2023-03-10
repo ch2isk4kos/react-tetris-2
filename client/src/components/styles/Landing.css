@@ -3,5 +3,20 @@
   align-items: center;
   min-height: 50vh;
   z-index: 100;
-  border: 5px solid green;
+  border: 2px solid green;
+}
+
+.button {
+  padding: 2em 4em;
+  border: none;
+  border-radius: 2.2em;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 60px;
+  background: blue;
+  font-size: 2em;
+  color: #fff;
+}
+
+.button:hover {
+  background: green;
+  cursor: pointer;
 }
