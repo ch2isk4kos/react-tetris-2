@@ -86,9 +86,11 @@ Z: red
 
 .tetromino__t {
   /* background-color: rgba(132, 61, 198, 1); */
-  /* background-color: rgba(122, 0, 255, 1); */
+  /* background-color: rgba(120, 0, 255, 1); */
   /* background-color: rgba(132, 0, 255, 1); */
-  background-color: rgba(100, 0, 255, 1);
+  /* background-color: rgba(90, 0, 255, 1); */
+  /* background-color: rgba(60, 0, 255, 1); */
+  background-color: rgb(167, 94, 236);
 }
 
 .tetromino__z {
