@@ -13,14 +13,8 @@
   float: left;
 }
 
-.nav-links {
-  margin-right: 20px;
-}
-
 .nav-item {
   display: inline;
-  /* float: right; */
-  /* border: 2px solid gold; */
 }
 
 #hamburger {
@@ -28,7 +22,6 @@
   margin-top: 20px;
   border: none;
   background-color: #fff;
-  /* border: 2px solid gold; */
 }
 
 #hamburger:hover {
