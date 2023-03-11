@@ -11,6 +11,7 @@ const SocialMediaIcons = () => {
   const twitter = <FontAwesomeIcon icon={faTwitter} />;
   const gitHub = <FontAwesomeIcon icon={faGithub} />;
   const medium = <FontAwesomeIcon icon={faMedium} />;
+
   return (
     <div className="SocialMediaIcons">
       <a
