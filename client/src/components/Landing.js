@@ -7,9 +7,6 @@ const Landing = ({ start }) => {
     <div className="Landing">
       <header className="landing-header">
         <img src={logo} className="react-logo" alt="logo" />
-        <button className="button" onClick={start}>
-          Play
-        </button>
       </header>
     </div>
   );
