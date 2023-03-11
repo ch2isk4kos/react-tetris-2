@@ -8,11 +8,9 @@ const Navbar = () => {
       <li id="logo" className="nav-item">
         <p>Logo</p>
       </li>
-      <div className="nav-links">
-        <li id="hamburger" className="nav-item">
-          <FontAwesomeIcon icon={faBars} size="2x" />
-        </li>
-      </div>
+      <li id="hamburger" className="nav-item">
+        <FontAwesomeIcon icon={faBars} size="2x" />
+      </li>
     </ul>
   );
 };
