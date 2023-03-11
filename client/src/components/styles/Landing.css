@@ -39,21 +39,6 @@
 
 /* START BUTTON */
 
-/* .button {
-  padding: 0.25em 0.5em;
-  border: none;
-  border-radius: 0.5em;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 60px;
-  background: gray;
-  font-size: 1.5em;
-  color: #fff;
-}
-
-.button:hover {
-  background: rgb(32, 0, 64);
-  cursor: pointer;
-} */
-
 #start-btn {
   display: flex;
   justify-content: center;
@@ -106,46 +91,4 @@ span:nth-child(2) {
   margin-left: 30px;
   position: relative;
   top: 12%;
-}
-
-/**************SVG****************/
-
-path.one {
-  transition: 0.4s;
-  transform: translateX(-60%);
-}
-
-path.two {
-  transition: 0.5s;
-  transform: translateX(-30%);
-}
-
-.cta:hover path.three {
-  animation: color_anim 1s infinite 0.2s;
-}
-
-.cta:hover path.one {
-  transform: translateX(0%);
-  animation: color_anim 1s infinite 0.6s;
-}
-
-.cta:hover path.two {
-  transform: translateX(0%);
-  animation: color_anim 1s infinite 0.4s;
-}
-
-/* SVG animations */
-
-@keyframes color_anim {
-  0% {
-    /* fill: white; */
-    fill: rgb(32, 0, 64);
-  }
-  50% {
-    fill: #61dafb;
-  }
-  100% {
-    /* fill: white; */
-    fill: rgb(32, 0, 64);
-  }
 }
