@@ -56,7 +56,8 @@
   background: gray;
   transition: 1s;
   /* box-shadow: 6px 6px 0 black; */
-  box-shadow: 6px 6px 0 rgb(32, 0, 64);
+  /* box-shadow: 6px 6px 0 rgb(32, 0, 64); */
+  box-shadow: 6px 6px 0 lightgrey;
   transform: skewX(-15deg);
 }
 
