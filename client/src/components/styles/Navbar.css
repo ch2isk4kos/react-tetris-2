@@ -23,6 +23,18 @@
   /* border: 2px solid gold; */
 }
 
+#hamburger {
+  float: right;
+  margin-top: 20px;
+  border: none;
+  background-color: #fff;
+  /* border: 2px solid gold; */
+}
+
+#hamburger:hover {
+  cursor: pointer;
+}
+
 /* RESOURCES */
 /* https://blog.fontawesome.com/webfont-vs-svg/ */
 /* https://rigorousthemes.com/blog/best-iconfinder-alternatives/ */
