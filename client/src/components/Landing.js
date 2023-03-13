@@ -8,6 +8,10 @@ const Landing = ({ start }) => {
       <header className="landing-header">
         {/* REACT LOGO */}
         <img src={logo} className="react-logo" alt="logo" />
+        {/* TETRIS TITLE */}
+        <div className="title-container">
+          <h1 className="title">TETRIS</h1>
+        </div>
         {/* START BUTTON */}
         <div id="start-btn">
           <button className="cta" onClick={start}>
