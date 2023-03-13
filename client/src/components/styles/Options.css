@@ -9,18 +9,24 @@
   text-align: left;
   list-style-type: none;
   /* color: rgba(255, 255, 255, 0.5); */
-  color: gray;
+  color: grey;
   background: rgba(0, 0, 0, 0.1);
 }
 
 .action {
+  display: flex;
+  align-items: center;
   margin: 4px 0 0 4px;
 }
 
 .keypress {
+  margin-top: 5px;
   font-size: 1.25em;
+  color: rgb(52, 20, 94);
 }
 
 .keypress-action {
+  margin-top: 5px;
+  margin-left: 10px;
   font-size: 1em;
 }
