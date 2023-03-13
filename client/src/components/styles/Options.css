@@ -17,7 +17,6 @@
   display: flex;
   align-items: center;
   margin: 4px 0 0 4px;
-  line-height: 20px;
 }
 
 .keypress {
@@ -28,6 +27,6 @@
 
 .keypress-action {
   margin-top: 5px;
-  margin-left: 10px;
+  margin-left: 5px;
   font-size: 1em;
 }
