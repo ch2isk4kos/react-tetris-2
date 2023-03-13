@@ -25,6 +25,8 @@
 
 #hamburger:hover {
   cursor: pointer;
+  color: #61dafb;
+  color: rgb(52, 20, 94);
 }
 
 /* RESOURCES */
