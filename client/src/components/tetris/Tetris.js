@@ -28,18 +28,6 @@ const Tetris = ({ rows, columns, setIsGameOver }) => {
       <Board board={board} />
       <Previews tetrominoes={player.tetrominoes} />
       <Options />
-      <div className="TypeWriterEffect">
-        <Typewriter
-          options={{
-            strings: [
-              "<span style=color:gray;font-size:0.75em;>built by <strong><span style=color:#2000A0;font-size:1.25em;font-weight:lighter;>Chris Kakos</span></strong></span>",
-            ],
-            autoStart: true,
-            pauseFor: 50000,
-            loop: true,
-          }}
-        />
-      </div>
       <GameController
         board={board}
         stats={stats}
