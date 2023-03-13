@@ -6,7 +6,9 @@ const Landing = ({ start }) => {
   return (
     <div className="Landing">
       <header className="landing-header">
+        {/* REACT LOGO */}
         <img src={logo} className="react-logo" alt="logo" />
+        {/* START BUTTON */}
         <div id="start-btn">
           <button className="cta" onClick={start}>
             <span id="start-btn-text">Play</span>
@@ -21,9 +23,9 @@ const Landing = ({ start }) => {
                 <g
                   id="arrow"
                   stroke="none"
-                  stroke-width="1"
+                  strokeWidth="1"
                   fill="none"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 >
                   <path
                     className="one"
