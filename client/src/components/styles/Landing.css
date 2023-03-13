@@ -38,6 +38,16 @@
   }
 }
 
+/* TETRIS TITLE */
+
+.title-container {
+  position: absolute;
+  z-index: 10000;
+}
+.title-container .title {
+  color: black;
+}
+
 /* START BUTTON */
 
 #start-btn {
