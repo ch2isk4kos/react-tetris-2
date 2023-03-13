@@ -3,12 +3,13 @@
   align-items: center;
   text-align: center;
   border: 2px solid green;
-  z-index: 100;
+  /* z-index: 100; */
 }
 
 /* REACT LOGO + ANIMATION */
 
 .react-logo {
+  position: relative;
   height: 40vmin;
   pointer-events: none;
 }
