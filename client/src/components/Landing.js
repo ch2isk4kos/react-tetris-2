@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/images/logo.svg";
-import "./styles/Landing.css";
+import "./styles/Landing/Landing.css";
 
 const Landing = ({ start }) => {
   return (
