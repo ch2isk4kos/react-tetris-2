@@ -29,9 +29,6 @@ const Navbar = () => {
       <li id="logo" className="nav-item">
         <p>Logo</p>
       </li>
-      {/* <li id="hamburger" className="nav-item" onClick={handleOnOpen}>
-        <FontAwesomeIcon icon={faBars} size="2x" />
-      </li> */}
       {isOpen ? (
         <div className="hamburger-icons">
           <li className="hamburger-icon">
