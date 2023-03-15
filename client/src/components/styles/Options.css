@@ -6,6 +6,7 @@
   height: 15vh;
   margin-bottom: 24.3em;
   margin-right: 9.9em;
+  padding: 10px;
   text-align: left;
   list-style-type: none;
   /* color: rgba(255, 255, 255, 0.5); */
@@ -20,7 +21,6 @@
 }
 
 .keypress {
-  margin-top: 5px;
   font-size: 1.25em;
   color: rgb(52, 20, 94);
 }
