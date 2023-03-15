@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import classnames from "classnames";
 
 const FloatingActionButton = ({ actions }) => {
   const [open, setOpen] = useState(false);
@@ -23,7 +24,7 @@ const FloatingActionButton = ({ actions }) => {
       {actions.map((action, index) => (
         <li
           style={{ transitionDelay: `${index * 25}ms` }}
-          className={cn("fab-action", { open })}
+          className={classnames("fab-action", { open })}
           key={action.label}
           onClick={action.onClick}
         >
