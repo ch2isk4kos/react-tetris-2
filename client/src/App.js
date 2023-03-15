@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Game from "./components/Game";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navigation/Navbar";
 import "./App.css";
 
 function App() {
