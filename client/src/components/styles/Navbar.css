@@ -29,6 +29,13 @@
   color: rgb(52, 20, 94);
 }
 
+.icons {
+  display: flex;
+  float: right;
+  align-items: space-around;
+  border: 2px solid blue;
+}
+
 /* RESOURCES */
 /* https://blog.fontawesome.com/webfont-vs-svg/ */
 /* https://rigorousthemes.com/blog/best-iconfinder-alternatives/ */
