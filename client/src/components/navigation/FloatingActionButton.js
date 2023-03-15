@@ -16,11 +16,9 @@ const FloatingActionButton = ({ actions }) => {
       onMouseEnter={mouseEnter}
       onMouseLeave={mouseLeave}
     >
-      {/* <li className="fab-button"> */}
-      <li id="hamburger" className="nav-item">
+      <li id="hamburger" className="nav-item fab-button">
         <FontAwesomeIcon icon={faBars} size="2x" />
       </li>
-      {/* </li> */}
       {actions.map((action, index) => (
         <li
           style={{ transitionDelay: `${index * 25}ms` }}
