@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/images/logo.svg";
 import "./styles/Landing/Landing.css";
+import "./styles/Landing/Landing-Title.css";
 
 const Landing = ({ start }) => {
   return (
@@ -9,9 +10,19 @@ const Landing = ({ start }) => {
         {/* REACT LOGO */}
         <img src={logo} className="react-logo" alt="logo" />
         {/* TETRIS TITLE */}
-        <div className="title-container">
+        {/* <div className="title-container">
           <h1 className="title">TETRIS</h1>
-        </div>
+        </div> */}
+        {/* <div className="Landing-Title">
+          <h1 className="lt">TETRIS</h1>
+        </div> */}
+        {/* <div className="Landing-Title"> */}
+        <img
+          className="tetris-logo"
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fseeklogo.com%2Fimages%2FT%2Ftetris-logo-5F5DFBCE21-seeklogo.com.png&f=1&nofb=1&ipt=dac17f5c93afe23ff94cd1967e795ae81b4a10288fe1abb4e650cbbaeb59b60b&ipo=images"
+          alt="tetris logo"
+        />
+        {/* </div> */}
         {/* START BUTTON */}
         <div id="start-btn">
           <button className="cta" onClick={start}>
