@@ -1,0 +1,37 @@
+/* font-family: "Calligraffitti", cursive; */
+/* .Landing-Title {
+  display: block;
+  font-weight: 800;
+  font-size: 6rem;
+  position: absolute;
+  text-shadow: -15px 5px 20px #ced0d3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #f9f1cc;
+  text-shadow: 5px 5px 0px #ffb650, 10px 10px 0px #ffd662, 15px 15px 0px #ff80bf,
+    20px 20px 0px #ef5097, 25px 25px 0px #6868ac, 30px 30px 0px #90b1e0;
+} */
+
+/* *************************************************************************** */
+
+.tetris-logo {
+  position: absolute;
+  margin-bottom: 2em;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .tetris-logo {
+    animation: tetris-logo-spin infinite 20s linear;
+  }
+}
+@keyframes tetris-logo-spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+} */
