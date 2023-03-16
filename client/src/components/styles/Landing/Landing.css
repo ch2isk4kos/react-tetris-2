@@ -1,5 +1,4 @@
-/* PARENT */
-
+/*** PARENT ***/
 .Landing {
   position: relative;
   justify-content: center;
@@ -8,8 +7,7 @@
   border: 2px solid green;
 }
 
-/* HEADER */
-
+/*** HEADER ***/
 .landing-header {
   display: flex;
   flex-direction: column;
@@ -19,7 +17,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-/* REACT LOGO + ANIMATION */
+/* react logo + animation */
 .react-logo {
   position: relative;
   height: 40vmin;
@@ -38,7 +36,7 @@
     transform: rotate(360deg);
   }
 }
-/* TETRIS TITLE */
+/* tetris title */
 .title-container {
   position: absolute;
   z-index: 10000;
@@ -46,7 +44,7 @@
 .title-container .title {
   color: black;
 }
-/* START BUTTON */
+/* start button */
 #start-btn {
   display: flex;
   justify-content: center;
@@ -89,7 +87,7 @@ span:nth-child(2) {
   position: relative;
   top: 12%;
 }
-/*** SVG ***/
+/* svg */
 path.one {
   transition: 0.4s;
   transform: translateX(-60%);
@@ -109,7 +107,7 @@ path.two {
   transform: translateX(0%);
   animation: color_anim 1s infinite 0.4s;
 }
-/*** SVG ANIMATION ***/
+/* svg animation */
 @keyframes color_anim {
   0% {
     fill: white;
