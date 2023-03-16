@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faThumbsUp } from "@fortawesome/free-solid-svg-icons";
 import "../styles/Navbar.css";
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
         <p>Logo</p>
       </li>
       <li id="hamburger">
-        <FontAwesomeIcon icon={faBars} size="2x" />
+        <FontAwesomeIcon icon={faThumbsUp} size="2x" />
       </li>
     </ul>
   );
