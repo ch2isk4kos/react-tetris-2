@@ -125,6 +125,7 @@ path.two {
 /*** SIGNATURE ***/
 
 .signature {
+  border: 2px solid blue;
 }
 .signature .author {
 }
