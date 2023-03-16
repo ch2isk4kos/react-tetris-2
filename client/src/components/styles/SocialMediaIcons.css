@@ -1,15 +1,18 @@
 .SocialMediaIcons {
   position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 25vw;
   display: flex;
   flex-direction: column;
-  width: 25vw;
-  left: 0;
-  bottom: 0;
-  margin-left: 10rem;
+  justify-content: flex-end;
+  text-align: right;
+  border: 2px solid blue;
 }
 
 .icon {
-  display: inline;
+  /* display: inline; */
+  /* right: 0; */
   font-size: 3.5em;
   margin: 0 0 1rem 0;
   /* color: rgb(32, 0, 64); */
@@ -26,16 +29,3 @@
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function */
 /* https://fontawesome.com/v6/docs/web/use-with/react/add-icons */
 /* https://www.codecademy.com/resources/docs/css/filter-functions/hue-rotate */
-
-@media (min-width: 961px) {
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
-  .SocialMediaIcons {
-    left: 0;
-    bottom: 0;
-    /* margin-left: 8rem; */
-  }
-  .icons {
-    font-size: 1.5em;
-    margin: 0 0 0.25rem 0;
-  }
-}
