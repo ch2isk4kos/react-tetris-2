@@ -3,7 +3,8 @@
   left: 72.2vw;
   margin-top: 20px;
   background: rgba(0, 0, 0, 0.1);
-  border: 10px solid rgba(0, 0, 0, 0);
+  /* border: 10px solid rgba(0, 0, 0, 0); */
+  border: 2px solid coral;
 }
 
 .preview-board {
@@ -11,7 +12,113 @@
   gap: 2px;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(4, 1fr);
-  width: 10vw;
-  height: 10vh;
-  margin: 50px 0 0 50px;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+@media (min-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  .Preview {
+    border: 2px solid lightblue;
+  }
+  .preview-board {
+  }
+}
+@media (min-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  .Preview {
+    border: 2px solid coral;
+  }
+  .preview-board {
+    /* margin: 40px 0 0 40px; */
+  }
+}
+@media (min-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .Preview {
+    border: 2px solid green;
+  }
+  .preview-board {
+  }
+}
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .Preview {
+    border: 2px solid red;
+  }
+  .preview-board {
+    width: 4vw;
+    height: 4vh;
+    margin: 60px 0 0 60px;
+  }
+}
+/* @media (min-width > 1025px) {
+  .Preview {
+  }
+  .preview-board {
+    margin: 20px 0 0 20px;
+  }
+} */
+
+/* **************************** */
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  .Preview {
+    border: 5px solid blue;
+  }
+  .preview-board {
+    /* margin: 45px 0 0 45px; */
+    width: 6vw;
+    height: 6vh;
+    margin: 40px 40px 10px 40px;
+  }
+}
+@media (min-width: 1090px) {
+  /* hi-res laptops and desktops */
+  .Preview {
+    border: 5px solid gold;
+  }
+  .preview-board {
+    width: 6vw;
+    height: 6vh;
+    margin: 40px 40px 20px 40px;
+  }
+}
+
+@media (min-width: 1290px) {
+  .Preview {
+    border: 5px solid limegreen;
+  }
+  .preview-board {
+  }
+}
+
+@media (min-width: 1420px) {
+  .Preview {
+    border: 5px solid blueviolet;
+  }
+  .preview-board {
+  }
+}
+
+@media (min-width: 1680px) {
+  .Preview {
+    border: 5px solid royalblue;
+  }
+  .preview-board {
+    width: 10vw;
+    height: 10vh;
+  }
+}
+
+@media (min-width: 1820px) {
+  .Preview {
+    border: 5px solid tomato;
+  }
+  .preview-board {
+    width: 14vw;
+    height: 14vh;
+    /* margin: 2rem; */
+  }
 }
