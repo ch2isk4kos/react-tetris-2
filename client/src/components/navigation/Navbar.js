@@ -1,13 +1,6 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBars,
-  faComments,
-  faHippo,
-  faUserTie,
-  faXmark,
-} from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "../styles/Navbar.css";
 
 const Navbar = () => {
