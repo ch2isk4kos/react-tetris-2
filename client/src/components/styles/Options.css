@@ -3,15 +3,15 @@
   right: 0;
   bottom: 0;
   width: 15vw;
-  height: 15vh;
-  margin-bottom: 24.3em;
-  margin-right: 9.9em;
-  padding: 10px;
-  text-align: left;
+  /* height: 15vh; */
+  /* margin-bottom: 24.3em;
+  margin-right: 9.9em; */
+  /* padding: 10px; */
   list-style-type: none;
   /* color: rgba(255, 255, 255, 0.5); */
   color: grey;
   background: rgba(0, 0, 0, 0.1);
+  border: 2px solid blue;
 }
 
 .action {
