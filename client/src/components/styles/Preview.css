@@ -32,7 +32,6 @@
     border: 2px solid coral;
   }
   .preview-board {
-    /* margin: 40px 0 0 40px; */
   }
 }
 @media (min-width: 581px) {
@@ -68,22 +67,12 @@
     margin: 40px 40px 10px 40px;
   }
 }
-/* @media (min-width > 1025px) {
-  .Preview {
-  }
-  .preview-board {
-    margin: 20px 0 0 20px;
-  }
-} */
-
-/* **************************** */
 @media (min-width: 1025px) {
   /* big landscape tablets, laptops, and desktops */
   .Preview {
     border: 5px solid blue;
   }
   .preview-board {
-    /* margin: 45px 0 0 45px; */
     width: 6vw;
     height: 6vh;
     margin: 40px 40px 10px 40px;
