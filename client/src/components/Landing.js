@@ -63,6 +63,11 @@ const Landing = ({ start }) => {
           </button>
         </div>
       </header>
+      <section className="signature">
+        <h3>
+          built by <span id="author">Chris Kakos</span>
+        </h3>
+      </section>
     </div>
   );
 };
