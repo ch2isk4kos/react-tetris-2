@@ -1,14 +1,14 @@
 .Options {
   position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 15vw;
-  height: 15vh;
-  margin-bottom: 24.3em;
-  margin-right: 10em;
+  left: auto;
+  bottom: auto;
+  width: auto;
+  height: auto;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: left;
   list-style-type: none;
   /* color: rgba(255, 255, 255, 0.5); */
   color: grey;
@@ -31,4 +31,79 @@
   margin-top: 5px;
   margin-left: 5px;
   font-size: 1em;
+}
+
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .Options {
+    border: 2px solid;
+  }
+  .preview-board {
+    /* margin: 45px 0 0 45px; */
+  }
+}
+
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  .Options {
+    border: 5px solid blue;
+    /* width: 12.5vw; */
+    /* height: 15vh; */
+    /* margin: 2rem; */
+    /* left: 72.2vw; */
+    /* bottom: 0; */
+    /* display: "aria-hidden"; */
+  }
+}
+
+@media (min-width: 1090px) {
+  /* big landscape tablets, laptops, and desktops */
+  .Options {
+    border: 5px solid gold;
+    width: 12vw;
+    height: 12vh;
+    left: 72.25vw;
+    bottom: 32vh;
+  }
+}
+
+@media (min-width: 1290px) {
+  /* big landscape tablets, laptops, and desktops */
+  .Options {
+    border: 5px solid limegreen;
+    width: 15vw;
+    height: 15vh;
+    left: 72.25vw;
+    bottom: 28.25vh;
+  }
+}
+
+@media (min-width: 1420px) {
+  .Options {
+    border: 5px solid blueviolet;
+    width: 14.75vw;
+    height: 15vh;
+    left: 72.25vw;
+    bottom: 20vh;
+  }
+}
+
+@media (min-width: 1680px) {
+  .Options {
+    border: 5px solid royalblue;
+    width: 13.85vw;
+    height: 15vh;
+    left: 72.25vw;
+    bottom: 15vh;
+  }
+}
+
+@media (min-width: 1820px) {
+  .Options {
+    border: 5px solid tomato;
+    width: 13.25vw;
+    height: 15vh;
+    left: 72.25vw;
+    bottom: 1.5vh;
+  }
 }
