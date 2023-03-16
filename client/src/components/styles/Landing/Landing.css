@@ -123,9 +123,10 @@ path.two {
 }
 
 /*** SIGNATURE ***/
-
 .signature {
+  margin-top: 2rem;
   border: 2px solid blue;
 }
-.signature .author {
+.signature #author {
+  color: coral;
 }
