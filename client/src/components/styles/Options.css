@@ -1,9 +1,7 @@
 .Options {
   position: absolute;
-  left: auto;
-  bottom: auto;
-  /* width: auto; */
-  /* height: auto; */
+  left: 72.2vw;
+  bottom: 1.5vh;
   max-width: 22rem;
   max-height: 22rem;
   margin: auto;
@@ -15,7 +13,7 @@
   /* color: rgba(255, 255, 255, 0.5); */
   color: grey;
   background: rgba(0, 0, 0, 0.1);
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .action {
@@ -38,30 +36,14 @@
 @media (min-width: 961px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
   .Options {
-    border: 2px solid;
-  }
-  .preview-board {
-    /* margin: 45px 0 0 45px; */
+    border: 2px solid springgreen;
   }
 }
 
 @media (min-width: 1025px) {
   /* big landscape tablets, laptops, and desktops */
   .Options {
-    width: 15vw;
-    height: 14vh;
-    left: 72.25vw;
-    bottom: 40vh;
     border: 5px solid blue;
-  }
-  .keypress {
-    /* font-size: 1.25em; */
-    /* color: rgb(52, 20, 94); */
-    font-size: 1em;
-  }
-  .keypress-action {
-    margin: 0;
-    font-size: 0.8em;
   }
 }
 
@@ -69,21 +51,6 @@
   /* big landscape tablets, laptops, and desktops */
   .Options {
     border: 5px solid gold;
-    width: 14.2vw;
-    height: 15vh;
-    left: 72.25vw;
-    bottom: 35vh;
-  }
-
-  .keypress {
-    /* font-size: 1.25em; */
-    /* color: rgb(52, 20, 94); */
-    font-size: 1em;
-  }
-
-  .keypress-action {
-    margin-left: 5px;
-    font-size: 0.8em;
   }
 }
 
@@ -91,48 +58,23 @@
   /* big landscape tablets, laptops, and desktops */
   .Options {
     border: 5px solid limegreen;
-    width: 14.5vw;
-    height: 15vh;
-    left: 72.25vw;
-    bottom: 29vh;
-  }
-
-  .keypress {
-    font-size: 1.25em;
-    color: rgb(52, 20, 94);
-  }
-
-  .keypress-action {
-    font-size: 1em;
   }
 }
 
 @media (min-width: 1420px) {
   .Options {
     border: 5px solid blueviolet;
-    width: 14.75vw;
-    height: 15vh;
-    left: 72.25vw;
-    bottom: 20vh;
   }
 }
 
 @media (min-width: 1680px) {
   .Options {
     border: 5px solid royalblue;
-    width: 13.85vw;
-    height: 15vh;
-    left: 72.25vw;
-    bottom: 15vh;
   }
 }
 
 @media (min-width: 1820px) {
   .Options {
-    border: 5px solid tomato;
-    width: 13.25vw;
-    height: 15vh;
-    left: 72.25vw;
-    bottom: 1.5vh;
+    border: 5px solid coral;
   }
 }
