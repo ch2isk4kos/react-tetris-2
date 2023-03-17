@@ -74,6 +74,7 @@
 
 @media (min-width: 1820px) {
   .Options {
+    left: 70vw;
     border: 5px solid coral;
   }
 }
