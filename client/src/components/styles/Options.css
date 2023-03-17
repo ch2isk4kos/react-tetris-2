@@ -60,21 +60,43 @@
   /* big landscape tablets, laptops, and desktops */
   .Options {
     border: 5px solid gold;
-    width: 12vw;
-    height: 12vh;
-    left: 72.25vw;
-    bottom: 32vh;
+    width: 13.25vw;
+    height: 15vh;
+    left: 75.25vw;
+    bottom: 35vh;
+  }
+
+  .keypress {
+    /* font-size: 1.25em; */
+    /* color: rgb(52, 20, 94); */
+    font-size: 1em;
+  }
+
+  .keypress-action {
+    /* margin-top: 5px;
+  margin-left: 5px;
+  font-size: 1em; */
+    font-size: 0.8em;
   }
 }
 
-@media (min-width: 1290px) {
+@media screen and (min-width: 1290px) {
   /* big landscape tablets, laptops, and desktops */
   .Options {
     border: 5px solid limegreen;
-    width: 15vw;
+    width: 14.5vw;
     height: 15vh;
     left: 72.25vw;
-    bottom: 28.25vh;
+    bottom: 29vh;
+  }
+
+  .keypress {
+    font-size: 1.25em;
+    color: rgb(52, 20, 94);
+  }
+
+  .keypress-action {
+    font-size: 1em;
   }
 }
 
