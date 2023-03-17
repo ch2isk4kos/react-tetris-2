@@ -32,9 +32,17 @@
   font-size: 1em;
 }
 
+@media (min-width: 691px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .Options {
+    border: 2px solid lightblue;
+  }
+}
+
 @media (min-width: 961px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
   .Options {
+    left: 83vw;
     border: 2px solid springgreen;
   }
 }
@@ -42,6 +50,7 @@
 @media (min-width: 1025px) {
   /* big landscape tablets, laptops, and desktops */
   .Options {
+    left: 80vw;
     border: 5px solid blue;
   }
 }
@@ -49,6 +58,7 @@
 @media (min-width: 1090px) {
   /* big landscape tablets, laptops, and desktops */
   .Options {
+    left: 79vw;
     border: 5px solid gold;
   }
 }
@@ -56,25 +66,28 @@
 @media screen and (min-width: 1290px) {
   /* big landscape tablets, laptops, and desktops */
   .Options {
-    border: 5px solid limegreen;
+    left: 75vw;
+    border: 2px solid limegreen;
   }
 }
 
 @media (min-width: 1420px) {
   .Options {
+    left: 72vw;
     border: 5px solid blueviolet;
   }
 }
 
 @media (min-width: 1680px) {
   .Options {
+    left: 69vw;
     border: 5px solid royalblue;
   }
 }
 
 @media (min-width: 1820px) {
   .Options {
-    left: 70vw;
-    border: 5px solid coral;
+    left: 68vw;
+    border: 2px solid coral;
   }
 }
