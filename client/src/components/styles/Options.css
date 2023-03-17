@@ -46,13 +46,20 @@
 @media (min-width: 1025px) {
   /* big landscape tablets, laptops, and desktops */
   .Options {
+    width: 15vw;
+    height: 14vh;
+    left: 72.25vw;
+    bottom: 40vh;
     border: 5px solid blue;
-    /* width: 12.5vw; */
-    /* height: 15vh; */
-    /* margin: 2rem; */
-    /* left: 72.2vw; */
-    /* bottom: 0; */
-    /* display: "aria-hidden"; */
+  }
+  .keypress {
+    /* font-size: 1.25em; */
+    /* color: rgb(52, 20, 94); */
+    font-size: 1em;
+  }
+  .keypress-action {
+    margin: 0;
+    font-size: 0.8em;
   }
 }
 
@@ -60,7 +67,7 @@
   /* big landscape tablets, laptops, and desktops */
   .Options {
     border: 5px solid gold;
-    width: 13.25vw;
+    width: 14.2vw;
     height: 15vh;
     left: 72.25vw;
     bottom: 35vh;
@@ -73,9 +80,7 @@
   }
 
   .keypress-action {
-    /* margin-top: 5px;
-  margin-left: 5px;
-  font-size: 1em; */
+    margin-left: 5px;
     font-size: 0.8em;
   }
 }
