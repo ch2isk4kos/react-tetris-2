@@ -1,10 +1,10 @@
 .Preview {
   position: absolute;
   left: 72.2vw;
+  max-width: 22rem;
   margin-top: 20px;
   background: rgba(0, 0, 0, 0.1);
   /* border: 10px solid rgba(0, 0, 0, 0); */
-  border: 2px solid coral;
 }
 
 .preview-board {
@@ -15,7 +15,8 @@
   width: auto;
   height: auto;
   /* margin: auto; */
-  margin: 40px 40px 10px 40px;
+  /* margin: 40px 40px 10px 40px; */
+  margin: 0 auto;
 }
 
 @media (min-width: 320px) {
