@@ -2,8 +2,10 @@
   position: absolute;
   left: auto;
   bottom: auto;
-  width: auto;
-  height: auto;
+  /* width: auto; */
+  /* height: auto; */
+  max-width: 22rem;
+  height: 22rem;
   margin: auto;
   display: flex;
   flex-direction: column;
