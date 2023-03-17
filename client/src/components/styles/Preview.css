@@ -1,9 +1,10 @@
 .Preview {
   position: absolute;
   left: 72.2vw;
-  max-width: 22rem;
-  max-height: 22rem;
-  margin-top: 20px;
+  /* max-width: 30rem;
+  max-height: 30rem; */
+  /* margin-top: 20px; */
+  margin: 20px 0 80px 0;
   background: rgba(0, 0, 0, 0.1);
   /* border: 10px solid rgba(0, 0, 0, 0); */
 }
@@ -13,8 +14,8 @@
   gap: 0.15em;
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(4, 1fr);
-  min-width: 5rem;
-  min-height: 5rem;
-  margin: 2em 1em 0.5em 2em;
-  padding: 0.1em;
+  min-width: 11rem;
+  min-height: 11rem;
+  margin: 0 auto;
+  padding: 1em;
 }
