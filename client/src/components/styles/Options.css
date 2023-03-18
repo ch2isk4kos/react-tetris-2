@@ -32,21 +32,13 @@
   font-size: 1em;
 }
 
-@media (max-width: 691px) {
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
-  .Options {
-    display: none;
-  }
-}
+/* @media (max-width: 691px) {
+} */
 
-@media (max-width: 980px) {
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
-  .Options {
-    display: none;
-  }
-}
+/* @media (max-width: 980px) {
+} */
 
-@media (max-width: 1068px) {
+@media (max-width: 1069px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
   .Options {
     display: none;
