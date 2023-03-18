@@ -32,30 +32,37 @@
   font-size: 1em;
 }
 
-@media (min-width: 691px) {
+@media (max-width: 691px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
   .Options {
-    border: 2px solid lightblue;
+    display: none;
   }
 }
 
-@media (min-width: 961px) {
+@media (max-width: 980px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
   .Options {
-    left: 83vw;
-    border: 2px solid springgreen;
+    display: none;
   }
 }
 
-@media (min-width: 1025px) {
+@media (max-width: 1068px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .Options {
+    display: none;
+  }
+}
+
+@media (min-width: 1070px) {
   /* big landscape tablets, laptops, and desktops */
   .Options {
-    left: 80vw;
+    /* display: none; */
+    left: 79vw;
     border: 5px solid blue;
   }
 }
 
-@media (min-width: 1090px) {
+@media screen and (min-width: 1088px) {
   /* big landscape tablets, laptops, and desktops */
   .Options {
     left: 79vw;
