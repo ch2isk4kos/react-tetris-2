@@ -2,7 +2,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 25vw;
+  min-width: 10vw;
   margin-top: 12px;
   list-style-type: none;
   text-align: right;
@@ -15,4 +15,11 @@
   margin-bottom: 0.5em;
   font-weight: 100;
   color: rgb(52, 20, 94);
+}
+
+@media screen and (min-width: 1088px) {
+  /* big landscape tablets, laptops, and desktops */
+  .Stats {
+    /* border: 2px solid gold; */
+  }
 }
