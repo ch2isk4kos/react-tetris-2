@@ -1,59 +1,10 @@
 .Board {
   display: grid;
   grid-gap: 2px;
-  /* width: 45vw; */
   max-width: 40rem;
   height: 90vh;
   margin: 20px auto;
   background: rgb(32, 0, 64);
   border: 5px solid rgb(32, 0, 64);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-@media (min-width: 320px) {
-  /* smartphones, iPhone, portrait 480x320 phones */
-  .Board {
-  }
-}
-
-@media (min-width: 481px) {
-  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-  .Board {
-  }
-}
-
-@media (min-width: 581px) {
-  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-  .Board {
-  }
-}
-
-@media (min-width: 641px) {
-  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-  .Board {
-  }
-}
-
-@media (min-width: 961px) {
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
-  .Board {
-  }
-}
-
-@media (min-width: 1025px) {
-  /* big landscape tablets, laptops, and desktops */
-  .Board {
-  }
-}
-
-@media screen and (min-width: 1090px) {
-  /* big landscape tablets, laptops, and desktops */
-  .Board {
-  }
-}
-
-@media screen and (min-width: 1290px) {
-  /* big landscape tablets, laptops, and desktops */
-  .Board {
-  }
 }
