@@ -32,12 +32,6 @@
   font-size: 1em;
 }
 
-/* @media (max-width: 691px) {
-} */
-
-/* @media (max-width: 980px) {
-} */
-
 @media screen and (max-width: 1089px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
   .Options {
