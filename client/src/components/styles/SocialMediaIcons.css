@@ -2,11 +2,10 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 25vw;
+  min-width: 16vw;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  text-align: right;
+  border: 2px solid blue;
 }
 
 .icon {
@@ -32,64 +31,9 @@
 /* @media (max-width: 691px) {
 } */
 
-@media (max-width: 880px) {
-  .SocialMediaIcons {
-    display: none;
-  }
-}
-
-@media (min-width: 961px) {
+@media (max-width: 890px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
   .SocialMediaIcons {
-    text-align: left;
-    left: 8vw;
-    border: 2px solid springgreen;
-  }
-}
-
-@media (min-width: 1025px) {
-  /* big landscape tablets, laptops, and desktops */
-  .SocialMediaIcons {
-    text-align: left;
-    left: 10vw;
-    border: 2px solid blue;
-  }
-}
-
-@media (min-width: 1090px) {
-  /* big landscape tablets, laptops, and desktops */
-  .SocialMediaIcons {
-    text-align: left;
-    left: 10vw;
-    border: 2px solid gold;
-  }
-}
-
-@media screen and (min-width: 1290px) {
-  /* big landscape tablets, laptops, and desktops */
-  .SocialMediaIcons {
-    width: 22vw;
-    border: 2px solid coral;
-  }
-
-  .icon {
-  }
-}
-
-@media (min-width: 1420px) {
-  .SocialMediaIcons {
-    border: 2px solid blueviolet;
-  }
-}
-
-@media (min-width: 1680px) {
-  .SocialMediaIcons {
-    border: 2px solid royalblue;
-  }
-}
-
-@media (min-width: 1820px) {
-  .SocialMediaIcons {
-    border: 2px solid coral;
+    display: none;
   }
 }
