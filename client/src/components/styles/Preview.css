@@ -1,12 +1,8 @@
 .Preview {
   position: absolute;
   left: 72.2vw;
-  /* max-width: 5rem;
-  max-height: 5rem; */
-  /* right: 0; */
   margin-top: 20px;
   background: rgba(0, 0, 0, 0.1);
-  /* border: 10px solid rgba(0, 0, 0, 0); */
   border: 2px solid coral;
 }
 
